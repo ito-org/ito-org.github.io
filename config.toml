@@ -1,22 +1,22 @@
-baseURL = "www.example.com"
+baseURL = "/"
 languageCode = "en-us"
-title = "Hugo Hero Theme"
-themesDir = "../.."
+title = "ito"
+themesDir = "themes"
 theme = "hugo-hero-theme"
 
 [params]
   google_analytics_id=""
 
   [params.homepage_meta_tags]
-    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
-    meta_og_title = "Hugo Hero Theme"
+    meta_description = "ito App is a application to track infections."
+    meta_og_title = "ito App"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-hero.netlify.com"
+    meta_og_url = "https://ito-app.org"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_description = "ito App is a tracking app to track contacts without tracking the people. It is completly anonyme and no personal data is needet to use ito."
     meta_twitter_card = "summary"
-    meta_twitter_site = "@zerostaticio"
-    meta_twitter_creator = "@zerostaticio"
+    meta_twitter_site = "@bandemicapp"
+    meta_twitter_creator = "@bandemicapp"
 
 [[menu.main]]
 	name = "Services"
