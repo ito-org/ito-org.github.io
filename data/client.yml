@@ -1,14 +1,7 @@
 enable  : true
-title   : OUR HAPPY CLINETS
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, error.
+title   : OURE FIRST PROJECTS
+subtitle: This are the projects we come from the WirVsVirus Hackathon
 clientsLogo:
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
-  - image : images/clients/logo-1.jpg
-  - image : images/clients/logo-2.jpg
-  - image : images/clients/logo-3.jpg
-  - image : images/clients/logo-4.jpg
-  - image : images/clients/logo-5.jpg
+  - image : images/clients/bluto.jpg
+  - image : images/clients/bandemic.jpg
+  - image : images/clients/trackcovidcluster.jpg
