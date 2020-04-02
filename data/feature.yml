@@ -1,34 +1,33 @@
-enable  : true
-title   : Offer From Me
-subtitle: >
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, <br> quasi dolores numquam dolor vero ex, tempora commodi repellendus quod laborum.
-item    :
-  - icon  : ion-ios-flask-outline
-    title : Privacy
-    description : >
-      Oure design is Privacy first and all the code and work is public for review and work togather.
+enable: true
+title: How it's done matters
+subtitle:
+item:
+  - icon: ion-ios-flask-outline
+    title: Privacy by design
+    description: >
+      Our design is privacy first and all the code and work is public for review and work togather.
 
-  - icon  : ion-ios-lightbulb-outline
-    title : Well documented.
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  - icon: ion-ios-lightbulb-outline
+    title: Privacy by choice
+    description: >
+      We have the same interests as you. And you can go and see for yourself!
 
-  - icon  : ion-ios-americanfootball-outline
-    title : Free updates
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  - icon: ion-ios-lightbulb-outline
+    title: Privacy by consent
+    description: >
+      ito only sends sensible data if you tell it to.
 
-  - icon  : ion-ios-keypad-outline
-    title : Solid Support
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  - icon: ion-ios-americanfootball-outline
+    title: Free as in free
+    description: >
+      Use our code wherever you want, just don't keep your changes to yourself.
 
-  - icon  : ion-ios-barcode-outline
-    title : Simple Installation
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
-  
-  - icon  : ion-ios-lightbulb-outline
-    title : Well documented.
-    description : >
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+  - icon: ion-ios-keypad-outline
+    title: International
+    description: >
+      Built with every human in mind, ito can be used by every health system in the world.
+
+  - icon: ion-ios-barcode-outline
+    title: Simple installation
+    description: >
+      Deploy a few Docker containers and you're all set.

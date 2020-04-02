@@ -62,15 +62,15 @@ title   = "\"Thread\" in Japanese"
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ito has battled pathogens before it was cool"
+title   = "ito was made by people like you"
 content = "Emerged as part of a grassroots initiative in March 2020, ito is an application for tracking infections using smart devices with Bluetooth technology."
 image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
-title   = "We work 100% transparently?"
-content = "ito is made by regular people just like you. We want to help the world stay safe and we mean it. That's why we open source every part of our work."
+title   = "We work 100% transparently"
+content = "We want to help the world stay safe and we mean it. That's why we open source every part of our work."
 btnText = "Talk to us"
 btnURL  = "/contact"
 
