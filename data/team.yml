@@ -36,3 +36,8 @@ members  :
     twitter     : https://www.twitter.com/themefisher
     linkedIn    : https://www.linkedin.com/themefisher
     googleplus  : https://plus.google.com/themefisher
+
+  - name : Sebastian 
+    image: images/team/team-4.jpg
+    designation: CEO, Project Manager
+    twitter: https://twitter.com/kreativmonkey
