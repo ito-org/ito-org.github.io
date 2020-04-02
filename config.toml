@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "ito | The infection tracking application"
+title = "ito | Track infections, not people"
 theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -10,10 +10,10 @@ theme = "timer-hugo"
 name    = "About"
 url     = "about"
 weight  = 2
-[[menu.main]]
-name    = "Service"
-url     = "service"
-weight  = 3
+#[[menu.main]]
+#name    = "Service"
+#url     = "service"
+#weight  = 3
 #[[menu.main]]
 #name    = "Gallery"
 #url     = "gallery"
@@ -42,8 +42,8 @@ googleAnalitycsID = "Your ID"
 [params.banner]
 enable  = true
 bgImage = "images/slider.jpg"
-heading = "ito is"
-description = "Oure app tracks infections not people!"
+heading = "ito means"
+description = "Our app tracks infections, not people!"
 # button
 btn     = true
 btnText = "Download Now"
@@ -61,15 +61,15 @@ title   = "Infection Tracking Opportunity"
 [params.about]
 enable  = true
 title   = "ABOUT ito"
-content = "ito is a application to track infections by using bluetooth from your smart device."
+content = "ito is a application for tracking infections using smart devices with Bluetooth technology."
 image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
-title   = "SO WHAT YOU THINK ?"
+title   = "We work 100% transparently?"
 content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-btnText = "Contact with me"
+btnText = "Talk to us"
 btnURL  = "/contact"
 
 # Portfolio Section On Homepage
@@ -85,7 +85,7 @@ url = "#"
 
 [[params.socialIcon]]
 icon = "ion-social-instagram"
-url = "#"
+url = "https://www.instagram.com/bandemic.app/"
 
 [[params.socialIcon]]
 icon = "ion-social-linkedin"
