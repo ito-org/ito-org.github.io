@@ -1,19 +1,19 @@
 enable: true
-title: It matter how it's done
+title: It matters how it's done
 subtitle:
 item:
-  - icon: ion-ios-circle-outline
+  - icon: ion-ios-checkmark-outline
     title: Privacy by design
     description: >
       User anonymity is a core feature, not an afterthought.
 
-  - icon: ion-ios-earth-outline
+  - icon: ion-earth
     title: Usable worldwide
     description: >
       Built with every human in mind, ito can be used by all health systems in the world.
 
   - icon: ion-ios-body-outline
-    title: Privacy by consent
+    title: Consent-based
     description: >
       We have the same interests as you. ito only ever sends sensible data if you tell it to do so.
 

@@ -64,7 +64,7 @@ title   = "\"Thread\" in Japanese"
 enable  = true
 title   = "ito was made by people like you"
 content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
-image   = "images/about/about.jpg"
+image   = "images/about/about.png"
 
 # Call to Action
 [params.cta]
