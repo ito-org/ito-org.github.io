@@ -80,6 +80,10 @@ subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque aucto
 
 # social icons
 [[params.socialIcon]]
+icon = "ion-social-github"
+url = "https://github.com/ito-org"
+
+[[params.socialIcon]]
 icon = "ion-social-twitter"
 url = "https://twitter.com/BandemicApp"
 
