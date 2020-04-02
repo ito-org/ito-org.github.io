@@ -63,14 +63,14 @@ title   = "\"Thread\" in Japanese"
 [params.about]
 enable  = true
 title   = "ito was made by people like you"
-content = "Emerged as part of a grassroots initiative in March 2020, ito is an application for tracking infections using smart devices with Bluetooth technology."
+content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
 image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
 title   = "We work 100% transparently"
-content = "We want to help the world stay safe and we mean it. That's why we open source every part of our work."
+content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
 btnText = "Talk to us"
 btnURL  = "/contact"
 
@@ -80,15 +80,15 @@ enable  = false
 title   = "Latest Works"
 subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
-# social icon
+# social icons
 [[params.socialIcon]]
-icon = "ion-social-facebook"
-url = "#"
+icon = "ion-social-twitter"
+url = "https://twitter.com/BandemicApp"
+
+[[params.socialIcon]]
+icon = "ion-social-youtube"
+url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
 
 [[params.socialIcon]]
 icon = "ion-social-instagram"
 url = "https://www.instagram.com/bandemic.app/"
-
-[[params.socialIcon]]
-icon = "ion-social-linkedin"
-url = "#"

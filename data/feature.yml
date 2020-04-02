@@ -1,33 +1,33 @@
 enable: true
-title: How it's done matters
+title: It matter how it's done
 subtitle:
 item:
-  - icon: ion-ios-flask-outline
+  - icon: ion-ios-circle-outline
     title: Privacy by design
     description: >
-      Our design is privacy first and all the code and work is public for review and work togather.
+      User anonymity is a core feature, not an afterthought.
 
-  - icon: ion-ios-lightbulb-outline
-    title: Privacy by choice
+  - icon: ion-ios-earth-outline
+    title: Usable worldwide
     description: >
-      We have the same interests as you. And you can go and see for yourself!
+      Built with every human in mind, ito can be used by all health systems in the world.
 
-  - icon: ion-ios-lightbulb-outline
+  - icon: ion-ios-body-outline
     title: Privacy by consent
     description: >
-      ito only sends sensible data if you tell it to.
+      We have the same interests as you. ito only ever sends sensible data if you tell it to do so.
 
-  - icon: ion-ios-americanfootball-outline
-    title: Free as in free
+  - icon: ion-ios-copy-outline
+    title: Open-source
     description: >
-      Use our code wherever you want, just don't keep your changes to yourself.
+      Examine our code, copy it and use it wherever you want.
 
-  - icon: ion-ios-keypad-outline
-    title: International
+  - icon: ion-ios-people-outline
+    title: Free as in freedom
     description: >
-      Built with every human in mind, ito can be used by every health system in the world.
+      Just don't keep your changes to yourself. Stay transparent!
 
-  - icon: ion-ios-barcode-outline
-    title: Simple installation
+  - icon: ion-ios-speedometer-outline
+    title: Fast installation
     description: >
-      Deploy a few Docker containers and you're all set.
+      Simply deploy a few Docker containers and you're all set.
