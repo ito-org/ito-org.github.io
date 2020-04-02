@@ -1,43 +1,92 @@
-baseURL = "/"
+baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "ito"
-themesDir = "themes"
-theme = "hugo-hero-theme"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
 
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "About"
+url     = "about"
+weight  = 2
+[[menu.main]]
+name    = "Service"
+url     = "service"
+weight  = 3
+[[menu.main]]
+name    = "Gallery"
+url     = "gallery"
+weight  = 4
+[[menu.main]]
+name    = "Blog"
+url     = "blog"
+weight  = 5
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 6
+
+# Site Params
 [params]
-  google_analytics_id=""
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Airspace Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
 
-  [params.homepage_meta_tags]
-    meta_description = "ito App is a application to track infections."
-    meta_og_title = "ito App"
-    meta_og_type = "website"
-    meta_og_url = "https://ito-app.org"
-    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
-    meta_og_description = "ito App is a tracking app to track contacts without tracking the people. It is completly anonyme and no personal data is needet to use ito."
-    meta_twitter_card = "summary"
-    meta_twitter_site = "@bandemicapp"
-    meta_twitter_creator = "@bandemicapp"
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.jpg"
+heading = "ito is"
+description = "Oure app tracks infections not people!"
+# button
+btn     = true
+btnText = "Download Now"
+btnURL  = "https://github.com/ito-org/react-native-app"
 
-[[menu.main]]
-	name = "Services"
-	url = "/services/"
-    weight = 1
+# flip text
+[[params.banner.flipText]]
+title   = "Infection Termination Operation"
+[[params.banner.flipText]]
+title   = "Integrated thermodynamic obscurity"
+[[params.banner.flipText]]
+title   = "Infection Tracking Opportunity"
 
-[[menu.main]]
-    name = "Work"
-    url = "/work/"
-    weight = 2
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "ABOUT ito"
+content = "ito is a application to track infections by using bluetooth from your smart device."
+image   = "images/about/about.jpg"
 
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 3
+# Call to Action
+[params.cta]
+enable  = true
+title   = "SO WHAT YOU THINK ?"
+content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+btnText = "Contact with me"
+btnURL  = "/contact"
 
-[[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = false
+title   = "Latest Works"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
-[permalinks]
-  post = "/:year/:month/:day/:slug/"
-  pages = "/:filename/"
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"

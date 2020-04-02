@@ -1,3 +1,7 @@
 [submodule "themes/hugo-hero-theme"]
     path = themes/hugo-hero-theme
     url = https://github.com/jugglerx/hugo-hero-theme.git
+
+[submodule "themes/timer-hugo"]
+    path = themes/timer-hugo
+    url = https://github.com/themefisher/timer-hugo.git
