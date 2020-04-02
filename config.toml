@@ -43,7 +43,7 @@ googleAnalitycsID = "Your ID"
 enable  = true
 bgImage = "images/slider.jpg"
 heading = "ito means"
-description = "Our app tracks infections, not people!"
+description = "Track infections, not people!"
 # button
 btn     = true
 btnText = "Download Now"
@@ -56,19 +56,21 @@ title   = "Infection Termination Operation"
 title   = "Integrated thermodynamic obscurity"
 [[params.banner.flipText]]
 title   = "Infection Tracking Opportunity"
+[[params.banner.flipText]]
+title   = "Japanese for \"thread\""
 
 # Homepage About Section
 [params.about]
 enable  = true
-title   = "ABOUT ito"
-content = "ito is a application for tracking infections using smart devices with Bluetooth technology."
+title   = "ito has battled pathogens before it was cool"
+content = "Emerged as part of a grassroots initiative in March 2020, ito is an application for tracking infections using smart devices with Bluetooth technology."
 image   = "images/about/about.jpg"
 
 # Call to Action
 [params.cta]
 enable  = true
 title   = "We work 100% transparently?"
-content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+content = "ito is made by regular people just like you. We want to help the world stay safe and we mean it. That's why we open source every part of our work."
 btnText = "Talk to us"
 btnURL  = "/contact"
 
