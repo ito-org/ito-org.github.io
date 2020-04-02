@@ -72,7 +72,7 @@ enable  = true
 title   = "We work 100% transparently"
 content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
 btnText = "Talk to us"
-btnURL  = "/contact"
+btnURL  = "https://start.ito-app.org"
 
 # Portfolio Section On Homepage
 [params.portfolio]
