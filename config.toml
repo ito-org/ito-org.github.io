@@ -35,8 +35,6 @@ dateFormat = "6 January 2006"
 # Meta data
 description = "A privacy-first application for tracking infections using smart devices with bluetooth technology."
 author = "ito Organisation"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
 
 # Banner Section
 [params.banner]
