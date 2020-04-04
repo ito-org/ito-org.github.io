@@ -4,7 +4,7 @@ date: 2020-04-03T12:29:40+06:00
 description : "PEPP-PT is a protocol similar to STRICT, what is our assessment?"
 type: post
 image: images/blog/thinker.jpg
-author: Sebastian Preisner
+author: ito Team
 tags: ["review", "statement"]
 ---
 
