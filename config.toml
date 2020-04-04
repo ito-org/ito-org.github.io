@@ -60,6 +60,19 @@ title   = "\"Thread\" in Japanese"
 # Homepage About Section
 [params.about]
 enable  = true
+title   = "This is how it works"
+content = """\
+        ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
+        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
+        If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
+        Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
+        All users download the latest information at regular intervals to compare the data locally on their devices. \
+        If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
+        """
+image   = "images/about/woman-app.jpg"
+
+[params.about2]
+enable  = true
 title   = "ito was made by people like you"
 content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
 image   = "images/about/about.png"
