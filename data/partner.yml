@@ -1,0 +1,32 @@
+enable  : true
+title   : WORKING TOGETHER
+members  :
+  - name  : Bandemic
+    image : images/partner/bandemic.png
+    designation : "#WirVsVirus"
+    description : 
+    url    : https://devpost.com/software/008_a_corona_tracking_infectionchain
+  
+  - name  : Bluto
+    image : images/partner/bluto.png
+    designation : "#WirVsVirus"
+    description : 
+    url    : https://devpost.com/software/bluto
+
+  - name  : Privacy preserving disease tracking
+    image : images/partner/PPDT.png
+    designation : "#WirVsVirus"
+    description : 
+    url    : https://devpost.com/software/01_031_coronatracking_privacy-preserving-disease-tracking
+
+  - name  : SAVE
+    image : images/partner/SAVE-Logo-Alt.png
+    designation : "#WirVsVirus"
+    description : 
+    url    : https://devpost.com/software/rsub1
+
+  - name  : TUM
+    image : images/partner/tum-logo.png
+    designation: "Working Parker"
+    description: 
+    url   : https://www.tum.de
