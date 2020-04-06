@@ -2,17 +2,19 @@
 
 {{ partial "page-title.html" . }}
 
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
 {{ "<!-- Company Description Section Start -->" | safeHTML }}
 <section class="company-description">
     <div class="container">
         <div class="row">
             <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
-                {{ with .Site.Data.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
+                {{ with $data.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    {{ with .Site.Data.about.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
-                    {{ with .Site.Data.about.description }}
+                    {{ with $data.about.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }}
+                    {{ with $data.about.description }}
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         {{ . | safeHTML }}
                     </p>
@@ -27,7 +29,7 @@
 <section class="about-feature clearfix">
     <div class="container-fluid">
         <div class="row">
-            {{ range $index, $element := .Site.Data.about.aboutItem }}
+            {{ range $index, $element := $data.about.aboutItem }}
             {{ $class := add $index 1 }}
             <div class="col-lg-4 about-feature-{{ $class }} px-0">
                 

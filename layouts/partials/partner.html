@@ -1,12 +1,14 @@
-{{ if .Site.Data.partner.enable }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.partner.enable }}
 {{ "<!-- Partner Section Start -->" | safeHTML }}
 <section id="cooperation">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                {{ with .Site.Data.partner.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+                {{ with $data.partner.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
             </div>
-            {{ range $index, $element:= .Site.Data.partner.members }}
+            {{ range $index, $element:= $data.partner.members }}
             <div class="col-md-3 col-sm-6">
                 {{ $delay := mul $index 300 }}
                 <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
