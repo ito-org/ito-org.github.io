@@ -5,192 +5,210 @@ theme = "timer-hugo"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
-# Navbar Menus
-#[[menu.main]]
-#name    = "About"
-#url     = "about"
-#weight  = 2
-#[[menu.main]]
-#name    = "Service"
-#url     = "service"
-#weight  = 3
-#[[menu.main]]
-#name    = "Gallery"
-#url     = "gallery"
-#weight  = 4
-[[menu.main]]
-name    = "Blog"
-url     = "blog"
-weight  = 5
-[[menu.main]]
-name    = "Contact"
-url     = "contact"
-weight  = 6
-
-
 [params]
 home = "Home"
 logo = "images/logo.png"
 dateFormat = "6 January 2006"
 
-DefaultContentLanguage: en
+DefaultContentLanguage = "en"
 
-languages:
-  en:
-        # Site Params
-        [params]
-        # Meta data
-        description = "A privacy-first application for tracking infections using smart devices with bluetooth technology."
-        author = "ito Organisation"
+[languages]
+  [languages.en]
+    # Site Params
+    [languages.en.params]
+    # Meta data
+    description = "A privacy-first application for tracking infections using smart devices with bluetooth technology."
+    author = "ito Organisation"
 
-        # Banner Section
-        [params.banner]
-        enable  = true
-        bgImage = "images/slider.jpg"
-        heading = "ito means"
-        description = "Track infections, not people!"
-        # button
-        btn     = true
-        btnText = "Download Now"
-        btnURL  = "https://github.com/ito-org/react-native-app"
+    # Navbar Menus
+    [[languages.en.menu.main]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+    #[[languages.en.menu.main]]
+    #name    = "Service"
+    #url     = "service"
+    #weight  = 3
+    #[[languages.en.menu.main]]
+    #name    = "Gallery"
+    #url     = "gallery"
+    #weight  = 4
+    [[languages.en.menu.main]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 5
+    [[languages.en.menu.main]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 6
 
-        # flip text
-        [[params.banner.flipText]]
-        title   = "Infection Termination Operation"
-        [[params.banner.flipText]]
-        title   = "Integrated thermodynamic obscurity"
-        [[params.banner.flipText]]
-        title   = "Infection Tracking Opportunity"
-        [[params.banner.flipText]]
-        title   = "\"Thread\" in Japanese"
+    # Banner Section
+    [languages.en.params.banner]
+    enable  = true
+    bgImage = "images/slider.jpg"
+    heading = "ito means"
+    description = "Track infections, not people!"
+    # button
+    btn     = true
+    btnText = "Download Now"
+    btnURL  = "https://github.com/ito-org/react-native-app"
 
-        # Homepage About Section
-        [params.about]
-        enable  = true
-        title   = "This is how it works"
-        content = """\
-                ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
-                If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
-                If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
-                Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
-                All users download the latest information at regular intervals to compare the data locally on their devices. \
-                If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
-                """
-        image   = "images/about/woman-app.jpg"
+    # flip text
+    [[languages.en.params.banner.flipText]]
+    title   = "Infection Termination Operation"
+    [[languages.en.params.banner.flipText]]
+    title   = "Integrated thermodynamic obscurity"
+    [[languages.en.params.banner.flipText]]
+    title   = "Infection Tracking Opportunity"
+    [[languages.en.params.banner.flipText]]
+    title   = "\"Thread\" in Japanese"
 
-        [params.about2]
-        enable  = true
-        title   = "ito was made by people like you"
-        content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
-        image   = "images/about/about.png"
+    # Homepage About Section
+    [languages.en.params.about]
+    enable  = true
+    title   = "This is how it works"
+    content = """\
+            ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
+            If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
+            If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
+            Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
+            All users download the latest information at regular intervals to compare the data locally on their devices. \
+            If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
+            """
+    image   = "images/about/woman-app.jpg"
 
-        # Call to Action
-        [params.cta]
-        enable  = true
-        title   = "We work 100% transparently"
-        content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
-        btnText = "Join Us"
-        btnURL  = "https://start.ito-app.org"
+    [languages.en.params.about2]
+    enable  = true
+    title   = "ito was made by people like you"
+    content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
+    image   = "images/about/about.png"
 
-        # Portfolio Section On Homepage
-        [params.portfolio]
-        enable  = false
-        title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+    # Call to Action
+    [languages.en.params.cta]
+    enable  = true
+    title   = "We work 100% transparently"
+    content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
+    btnText = "Join Us"
+    btnURL  = "https://start.ito-app.org"
 
-        # social icons
-        [[params.socialIcon]]
-        icon = "ion-social-github"
-        url = "https://github.com/ito-org"
+    # Portfolio Section On Homepage
+    [languages.en.params.portfolio]
+    enable  = false
+    title   = "Latest Works"
+    subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
-        [[params.socialIcon]]
-        icon = "ion-social-twitter"
-        url = "https://twitter.com/BandemicApp"
+    # social icons
+    [[languages.en.params.socialIcon]]
+    icon = "ion-social-github"
+    url = "https://github.com/ito-org"
 
-        [[params.socialIcon]]
-        icon = "ion-social-youtube"
-        url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
+    [[languages.en.params.socialIcon]]
+    icon = "ion-social-twitter"
+    url = "https://twitter.com/BandemicApp"
 
-        [[params.socialIcon]]
-        icon = "ion-social-instagram"
-        url = "https://www.instagram.com/bandemic.app/"
+    [[languages.en.params.socialIcon]]
+    icon = "ion-social-youtube"
+    url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
 
-  de:
-        # Site Params
-        
-        [params]
-        # Meta data
-        description = "Eine Applikation zum unterbrechen von Infektionsketten mithilfe von Bluetooth welche deine Privatsphäre schützt."
-        author = "ito Organisation"
+    [[languages.en.params.socialIcon]]
+    icon = "ion-social-instagram"
+    url = "https://www.instagram.com/bandemic.app/"
 
-        # Banner Section
-        [params.banner]
-        enable  = true
-        bgImage = "images/slider.jpg"
-        heading = "ito bedeutet"
-        description = "Ortet Viren, nicht Manschen!"
-        # button
-        btn     = true
-        btnText = "Jetzt Download"
-        btnURL  = "https://github.com/ito-org/react-native-app"
+  [languages.de]
+    [languages.de.params]
+    # Meta data
+    description = "Eine Applikation zum unterbrechen von Infektionsketten mithilfe von Bluetooth welche deine Privatsphäre schützt."
+    author = "ito Organisation"
 
-        # flip text
-        [[params.banner.flipText]]
-        title   = "Infektions terminierungs Operation"
-        [[params.banner.flipText]]
-        title   = "Integrated thermodynamic obscurity"
-        [[params.banner.flipText]]
-        title   = "Infection Tracking Opportunity"
-        [[params.banner.flipText]]
-        title   = "\"Thread\" in Japanese"
+    # Navbar Menus
+    [[languages.de.menu.main]]
+    name    = "About"
+    url     = "de/about"
+    weight  = 2
+    #[[languages.de.menu.main]]
+    #name    = "Service"
+    #url     = "de/service"
+    #weight  = 3
+    #[[languages.de.menu.main]]
+    #name    = "Gallery"
+    #url     = "de/gallery"
+    #weight  = 4
+    [[languages.de.menu.main]]
+    name    = "Blog"
+    url     = "de/blog"
+    weight  = 5
+    [[languages.de.menu.main]]
+    name    = "Contact"
+    url     = "de/contact"
+    weight  = 6
 
-        # Homepage About Section
-        [params.about]
-        enable  = true
-        title   = "This is how it works"
-        content = """\
-                ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
-                If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
-                If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
-                Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
-                All users download the latest information at regular intervals to compare the data locally on their devices. \
-                If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
-                """
-        image   = "images/about/woman-app.jpg"
+    # Banner Section
+    [languages.de.params.banner]
+    enable  = true
+    bgImage = "images/slider.jpg"
+    heading = "ito bedeutet"
+    description = "Ortet Viren, nicht Manschen!"
+    # button
+    btn     = true
+    btnText = "Jetzt Download"
+    btnURL  = "https://github.com/ito-org/react-native-app"
+     # flip text
+    [[languages.de.params.banner.flipText]]
+    title   = "Infektions terminierungs Operation"
+    [[languages.de.params.banner.flipText]]
+    title   = "Integrated thermodynamic obscurity"
+    [[languages.de.params.banner.flipText]]
+    title   = "Infection Tracking Opportunity"
+    [[languages.de.params.banner.flipText]]
+    title   = "\"Thread\" in Japanese"
 
-        [params.about2]
-        enable  = true
-        title   = "ito was made by people like you"
-        content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
-        image   = "images/about/about.png"
+    # Homepage About Section
+    [languages.de.params.about]
+    enable  = true
+    title   = "This is how it works"
+    content = """\
+            ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
+            If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
+            If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
+            Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
+            All users download the latest information at regular intervals to compare the data locally on their devices. \
+            If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
+            """
+    image   = "images/about/woman-app.jpg"
 
-        # Call to Action
-        [params.cta]
-        enable  = true
-        title   = "We work 100% transparently"
-        content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
-        btnText = "Join Us"
-        btnURL  = "https://start.ito-app.org"
+    [languages.de.params.about2]
+    enable  = true
+    title   = "ito was made by people like you"
+    content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
+    image   = "images/about/about.png"
 
-        # Portfolio Section On Homepage
-        [params.portfolio]
-        enable  = false
-        title   = "Latest Works"
-        subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+    # Call to Action
+    [languages.de.params.cta]
+    enable  = true
+    title   = "We work 100% transparently"
+    content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
+    btnText = "Join Us"
+    btnURL  = "https://start.ito-app.org"
 
-        # social icons
-        [[params.socialIcon]]
-        icon = "ion-social-github"
-        url = "https://github.com/ito-org"
+    # Portfolio Section On Homepage
+    [languages.de.params.portfolio]
+    enable  = false
+    title   = "Latest Works"
+    subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
 
-        [[params.socialIcon]]
-        icon = "ion-social-twitter"
-        url = "https://twitter.com/BandemicApp"
+    # social icons
+    [[languages.de.params.socialIcon]]
+    icon = "ion-social-github"
+    url = "https://github.com/ito-org"
 
-        [[params.socialIcon]]
-        icon = "ion-social-youtube"
-        url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
+    [[languages.de.params.socialIcon]]
+    icon = "ion-social-twitter"
+    url = "https://twitter.com/BandemicApp"
 
-        [[params.socialIcon]]
-        icon = "ion-social-instagram"
-        url = "https://www.instagram.com/bandemic.app/"
+    [[languages.de.params.socialIcon]]
+    icon = "ion-social-youtube"
+    url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
+
+    [[languages.de.params.socialIcon]]
+    icon = "ion-social-instagram"
+    url = "https://www.instagram.com/bandemic.app/"
