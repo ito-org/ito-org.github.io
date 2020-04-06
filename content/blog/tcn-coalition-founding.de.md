@@ -3,7 +3,7 @@ title: "TCN Coalition"
 date: 2020-04-07T01:00:40+06:00
 description : "Zusammenschluss zu einem globalen Standard von contact tracing Apps mit höchstem Privatsphärenschutz zur Bekämpfung von COVID-19"
 type: post
-image: image/blog/together.jpg
+image: images/blog/together.jpg
 author: ito Team
 tags: ["statement", "news", "coalition"]
 ---

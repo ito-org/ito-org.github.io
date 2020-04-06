@@ -3,7 +3,7 @@ title: "TCN Coalition"
 date: 2020-04-07T01:00:40+06:00
 description : "Founding of a Global Coalition for Privacy-First Digital Contact Tracing Protocols to Fight COVID-19"
 type: post
-image: image/blog/together.jpg
+image: images/blog/together.jpg
 author: ito Team
 tags: ["statement", "news", "coalition"]
 ---
