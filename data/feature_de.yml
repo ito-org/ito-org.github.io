@@ -1,0 +1,33 @@
+enable: true
+title: It matters how it's done
+subtitle:
+item:
+  - icon: ion-ios-checkmark-outline
+    title: Privacy by design
+    description: >
+      User anonymity is a core feature, not an afterthought.
+
+  - icon: ion-earth
+    title: Usable worldwide
+    description: >
+      Built with every human in mind, ito can be used by all health systems in the world.
+
+  - icon: ion-ios-body-outline
+    title: Consent-based
+    description: >
+      We have the same interests as you. ito only ever sends sensible data if you tell it to do so.
+
+  - icon: ion-ios-copy-outline
+    title: Open-source
+    description: >
+      Examine our code, copy it and use it wherever you want.
+
+  - icon: ion-ios-people-outline
+    title: Free as in freedom
+    description: >
+      Just don't keep your changes to yourself. Stay transparent!
+
+  - icon: ion-ios-speedometer-outline
+    title: Fast installation
+    description: >
+      Simply deploy a few Docker containers and you're all set.
