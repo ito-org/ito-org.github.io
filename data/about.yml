@@ -1,18 +1,27 @@
 enable  : true
 title   : Why We are Different
 description: >
-  ito is build from people like you. A merge of several teams from the #WirVsVirus Hackathon in March 2020 and many other interested people and companys.
+  <b>ito</b> is build from people like you. A merge of several teams from the #WirVsVirus Hackathon in March 2020 and many other interested people and companys.
   We all know how important this project is, but we also agree that the privacy of everyone should not be compromised. 
   In these special times it is important to form a common front and avoid fragmentation. That's why we have all come together under ito and continue to work on it.
+  <br>
+  <br>
+  That is not everything! <b>ito</b> is currently actively forming a global alliance of privacy-focused open source projects focusing on decentralized tracing solutions.
 image   : images/about/about.png
 aboutItem:
-  - title : Why Choose Us
+  - title : Think big!
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+      Not every solution is created by people who are paid for it, ito is one of those solutions. 
+      Nothing will go on if nobody pushes it, that is the reason why we all found each other. 
+      We are a team that thinks big and global and is ready to do more.
+      
+      Become part of this community.
 
-  - title : What You Get
+  - title : Whats next?
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+      We want a free solution for all and everyone. The virus knows no boundaries, no gender and no ethnic origin. 
+      Therefore we have to break down all these boundaries and work together to find a global solution. 
+      ito is currently in the process of forming a global alliance with privacy-focused open source projects.
 
   - title : Meet The Energy
     description: > 
