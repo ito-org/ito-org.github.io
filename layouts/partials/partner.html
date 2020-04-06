@@ -1,0 +1,31 @@
+{{ "<!-- Partner Section Start -->" | safeHTML }}
+
+<section id="cooperation">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{ with .Site.Data.partner.title }}<h2 class="subtitle text-center">{{ . }}</h2>{{ end }}
+            </div>
+            {{ range $index, $element:= .Site.Data.partner.members }}
+            <div class="col-md-3 col-sm-6">
+                {{ $delay := mul $index 300 }}
+                <a href="{{ .url }}" target="_blank">
+                    <div class="team-member wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="{{ $delay }}ms">
+                        {{ with .image }}
+                        <div class="team-img">
+                            <img src="{{ . | absURL }}" class="team-pic" alt="team-member">
+                        </div>
+                        {{ end }}
+                        {{ with .name }}<h3 class="team_name">{{ . }}</h3>{{ end }}
+                        {{ with .designation }}<p class="team_designation">{{ . }}</p>{{ end }}
+                        {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
+                    </div>
+                </a>
+            </div>  
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+
+{{ "<!-- Partner Section End -->" | safeHTML }}
