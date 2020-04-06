@@ -1,28 +1,34 @@
 enable  : true
 title   : Why We are Different
 description: >
-  <b>ito</b> is build from people like you. A merge of several teams from the #WirVsVirus Hackathon in March 2020 and many other interested people and companys.
-  We all know how important this project is, but we also agree that the privacy of everyone should not be compromised. 
-  In these special times it is important to form a common front and avoid fragmentation. That's why we have all come together under ito and continue to work on it.
+  <b>ito</b> is built by people like you. We merged from several teams that participated in the #WirVsVirus Hackathon in March 2020. 
+  We have since been joined by many other interested people and companies.
+  We all know how important this project is right now, but we believe that the everyone's privacy is sacred even in times of crisis. 
+  It is important to form a common front and avoid fragmentation. That's why we have all come together under <b>ito</b>  and continue to work on it.
   <br>
   <br>
-  That is not everything! <b>ito</b> is currently actively forming a global alliance of privacy-focused open source projects focusing on decentralized tracing solutions.
+  That's not all! <b>ito</b> is currently actively forming a global alliance of privacy-focused open source projects working decentralized tracing solutions. 
+  The goal of this work is to create a unanimous privacy-protecting protocol that different countires and institutions can build thir contact tracing apps on. 
 image   : images/about/about.png
 aboutItem:
   - title : Think big!
     description: > 
-      Not every solution is created by people who are paid for it, ito is one of those solutions. 
-      Nothing will go on if nobody pushes it, that is the reason why we all found each other. 
-      We are a team that thinks big and global and is ready to do more.
+      Not every solution is created by people who are paid for it, ito  is one of those. We all work pro-bono and voluntarily to help society handle this outbreak. 
+      Nothing will happen if nobody fights for it, that is the reason why we all found each other. 
+      Global interoperability of COVID19 contact tracing protocols is crucial, and we are working to achieve this.
+      Our team thinks globally and is ready to do more.
       
       Become part of this community.
 
   - title : Whats next?
     description: > 
-      We want a free solution for all and everyone. The virus knows no boundaries, no gender and no ethnic origin. 
-      Therefore we have to break down all these boundaries and work together to find a global solution. 
-      ito is currently in the process of forming a global alliance with privacy-focused open source projects.
+      We want a free solution for anyone and everyone. COVID19 knows no boundaries and nor do we. 
+      Therefore we have to go beyond all these boundaries and local solutions and work together to find a global one. 
+      ito  is currently in the process of forming a global alliance with privacy-focused open source projects. If you're interested, get in touch and join us!
 
   - title : Meet The Energy
     description: > 
-      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas.
+      We are a highly motivated team of individuals with varied expertise. 
+      All of our work is pro-bono and entirely voluntary, which highlights just how committed we are to an open-source, interoperable and privacy-preserving contact-tracing protocol. 
+      We believe that the tech community coming together behind this project is crucial for the world at this time and will save lives.
+      All of us are amazed and encouraged by the brilliant work that is going on around the world and the collaborative spirit that all our projects embody. 

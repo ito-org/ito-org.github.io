@@ -4,23 +4,23 @@ members  :
   - name  : Bandemic
     image : images/partner/bandemic.png
     designation : "#WirVsVirus"
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    description : >
     url    : https://devpost.com/software/008_a_corona_tracking_infectionchain
   
   - name  : Bluto
     image : images/partner/bluto.png
     designation : "#WirVsVirus"
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    description : >
     url    : https://devpost.com/software/bluto
 
-  - name  : Privacy preserving deseases tracking
+  - name  : Privacy preserving disease tracking
     image : images/partner/placeholder_transparent.png
     designation : "#WirVsVirus"
-    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    description : >
     url    : https://devpost.com/software/01_031_coronatracking_privacy-preserving-disease-tracking
 
   - name  : SAVE
-    image : images/partner/placeholder_transparent.png
+    image : images/partner/SAVE-Logo-Alt.png
     designation : "#WirVsVirus"
-    description : SAVE steht für System für Anonyme Virus Eindämmung.
+    description : >
     url    : https://devpost.com/software/rsub1
