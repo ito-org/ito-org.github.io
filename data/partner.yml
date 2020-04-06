@@ -1,0 +1,26 @@
+enable  : true
+title   : WORKING TOGATHER
+members  :
+  - name  : Bandemic
+    image : images/partner/bandemic.png
+    designation : CEO, Project Manager
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    url    : https://devpost.com/software/008_a_corona_tracking_infectionchain
+  
+  - name  : Bluto
+    image : images/partner/bluto.jpg
+    designation : CEO, Project Manager
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    url    : https://devpost.com/software/bluto
+
+  - name  : Privacy preserving deseases tracking
+    image : images/partner/bandemic.png
+    designation : CEO, Project Manager
+    description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+    url    : https://devpost.com/software/01_031_coronatracking_privacy-preserving-disease-tracking
+
+  - name  : SAVE
+    image : images/partner/bandemic.png
+    designation : CEO, Project Manager
+    description : SAVE steht für System für Anonyme Virus Eindämmung.
+    url    : https://devpost.com/software/rsub1
