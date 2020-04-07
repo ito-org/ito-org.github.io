@@ -50,8 +50,8 @@ DefaultContentLanguage = "en"
     description = "Track infections, not people!"
     # button
     btn     = true
-    btnText = "Download Now"
-    btnURL  = "https://github.com/ito-org/react-native-app"
+    btnText = "Get Involved"
+    btnURL  = "https://start.ito-app.org"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -150,8 +150,8 @@ DefaultContentLanguage = "en"
     description = "Ortet Viren, nicht Manschen!"
     # button
     btn     = true
-    btnText = "Jetzt Download"
-    btnURL  = "https://github.com/ito-org/react-native-app"
+    btnText = "Mach mit"
+    btnURL  = "https://start.ito-app.org"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"
