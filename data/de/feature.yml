@@ -15,19 +15,19 @@ item:
   - icon: ion-ios-body-outline
     title: Beruhend auf Einverständnis
     description: >
-      Wir haben die gleichen Interessen wie Sie. ito sendet sensible Daten immer nur dann, wenn Sie es dies wünschen.
+      Wir haben die gleichen Interessen wie du. ito sendet sensible Daten immer nur dann, wenn du es wünscht.
 
   - icon: ion-ios-copy-outline
     title: Open-source
     description: >
-      Untersuchen Sie unseren Code, kopieren Sie ihn und verwenden Sie ihn, wo immer Sie wollen.
+      Untersuche unseren Code, kopiere ihn und verwenden ihn, wo immer du möchtest. ito ist und bleibt OpenSource.
 
   - icon: ion-ios-people-outline
     title: Frei wie in Freiheit 
     description: >
-      Behalten Sie Ihre Änderungen nicht einfach für sich. Bleiben Sie transparent!
+      Behalten deine Änderungen nicht einfach für dich. Bleib transparent!
 
   - icon: ion-ios-speedometer-outline
     title: Schnelle Installation
     description: >
-      Deployen Sie einfach ein paar Docker Container, und schon ist alles bereit.
+      Deploy einfach ein paar Docker Container, und schon ist alles bereit.
