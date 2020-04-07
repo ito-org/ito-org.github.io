@@ -6,12 +6,12 @@ description: >
   Eine solche Lösung sollte und kann realisiert werden, ohne dass dafür die Privatsphäre aufgegeben werden muss. Das ist es, was wir mit <b>ito</b> erreichen wollen.
   </p>
   <p>
-  <b>ito</b> wird von Menschen wie Ihnen gebaut. Wir haben uns aus mehreren Teams zusammengeschlossen, die am #WirVsVirus Hackathon im März 2020 teilgenommen haben. Seitdem haben sich uns viele andere interessierte Fachleute und Unternehmen angeschlossen.
+  <b>ito</b> wird von Menschen wie dir gebaut. Wir haben uns aus mehreren Teams zusammengeschlossen, die am #WirVsVirus Hackathon im März 2020 teilgenommen haben. Seitdem haben sich uns viele andere interessierte Fachleute und Unternehmen angeschlossen.
   </p>
   <p>
   Jedes Land hat ein anderes Gesundheitssystem, weshalb viele verschiedene Anwendungen zur Ermittlung von Kontaktpersonen entwickelt werden.
   Da sich Menschen aber auch über die Grenzen hinweg mit Viren infizieren können, brauchen wir eine sichere Schnittstelle, über die die Nutzer der verschiedenen Apps unabhängig von der verwendeten App benachrichtigt werden können.
-  Aus diesem Grund bauen <b>ito</b> und andere Teams derzeit aktiv eine globale Allianz von datenschutzfokussierten Open-Source-Projekten auf, die an dezentralen Rückverfolgungslösungen arbeiten.
+  Aus diesem Grund bauen <b>ito</b> und andere Teams derzeit aktiv eine globale Allianz von datenschutzfokussierten Open-Source-Projekten auf, die an dezentralen Lösungen zur Rückverfolgung von Infoktionsketten arbeiten.
   Das Ziel dieser Arbeit ist es, ein einheitliches, die Privatsphäre schützendes Protokoll zu schaffen, auf dem verschiedene Länder und Institutionen ihre Apps zur Ermittlung von Kontaktpersonen aufbauen können.
   </p>
 image   : images/about/about.png
@@ -22,13 +22,13 @@ aboutItem:
       Wir alle arbeiten pro-bono und freiwillig, um der Gesellschaft bei der Bewältigung dieses Ausbruchs zu helfen.
       Nichts wird passieren, wenn niemand dafür kämpft, deshalb haben wir uns alle zusammengefunden.
       Die globale Interoperabilität der COVID19-Kontaktnachverfolgungsprotokolle ist von entscheidender Bedeutung, und wir arbeiten daran, dies zu erreichen.
-      Unser Team denkt global und ist bereit, mehr zu tun. Werden Sie Teil dieser Gemeinschaft.
+      Unser Team denkt global und ist bereit, mehr zu tun. Werde Teil dieser Gemeinschaft.
 
   - title : Whats next?
     description: > 
       Wir wollen eine freie Lösung für alle und jeden. COVID19 kennt keine Grenzen und wir auch nicht. 
       Deshalb müssen wir über all diese Grenzen und lokalen Lösungen hinausgehen und gemeinsam an einer globalen Lösung arbeiten. 
-      ito ist derzeit dabei, eine globale Allianz mit datenschutzorientierten Open-Source-Projekten zu bilden. Wenn Sie interessiert sind, nehmen Sie Kontakt auf und schließen Sie sich uns an!
+      ito ist derzeit dabei, eine globale Allianz mit datenschutzorientierten Open-Source-Projekten zu bilden. Wenn du interessiert hast, nehme Kontakt auf und schließ dich uns an!
 
   - title : Meet The Energy
     description: > 
