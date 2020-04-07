@@ -68,7 +68,8 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "This is how it works"
     content = """\
-        ito uses Bluetooth to recognize which people are in your area and saves the information on your device.
+        ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
+        It uses Bluetooth to recognize which people are in your area and saves the information on your device.
         If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.
         If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
         Your pseudonymized ID will then be uploaded together with the verification of the positive test.
