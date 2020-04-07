@@ -1,33 +1,33 @@
 enable: true
-title: It matters how it's done
+title: Es ist wichtig, wie es gemacht wird
 subtitle:
 item:
   - icon: ion-ios-checkmark-outline
-    title: Privacy by design
+    title: Datenschutz per Design
     description: >
-      User anonymity is a core feature, not an afterthought.
+      Die Anonymität der Benutzer ist ein zentrales Merkmal, kein Nebengedanke.
 
   - icon: ion-earth
-    title: Usable worldwide
+    title: Weltweit einsetzbar
     description: >
-      Built with every human in mind, ito can be used by all health systems in the world.
+      Unsere Anwendung wird mit Rücksicht auf jeden Menschen entwickelt und kann von allen Gesundheitssystemen der Welt genutzt werden.
 
   - icon: ion-ios-body-outline
-    title: Consent-based
+    title: Beruhend auf Einverständnis
     description: >
-      We have the same interests as you. ito only ever sends sensitive data if you tell it to do so.
+      Wir haben die gleichen Interessen wie Sie. ito sendet sensible Daten immer nur dann, wenn Sie es dies wünschen.
 
   - icon: ion-ios-copy-outline
     title: Open-source
     description: >
-      Examine our code, copy it and use it wherever you want.
+      Untersuchen Sie unseren Code, kopieren Sie ihn und verwenden Sie ihn, wo immer Sie wollen.
 
   - icon: ion-ios-people-outline
-    title: Free as in freedom
+    title: Frei wie in Freiheit 
     description: >
-      Don't just keep your changes to yourself. Stay transparent!
+      Behalten Sie Ihre Änderungen nicht einfach für sich. Bleiben Sie transparent!
 
   - icon: ion-ios-speedometer-outline
-    title: Fast installation
+    title: Schnelle Installation
     description: >
-      Simply deploy a few Docker containers and you're all set.
+      Deployen Sie einfach ein paar Docker Container, und schon ist alles bereit.
