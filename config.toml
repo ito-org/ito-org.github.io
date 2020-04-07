@@ -45,7 +45,6 @@ DefaultContentLanguage = "en"
     # Banner Section
     [languages.en.params.banner]
     enable  = true
-    bgImage = "images/slider.jpg"
     heading = "ito means"
     description = "Track infections, not people!"
     # button
@@ -150,7 +149,6 @@ DefaultContentLanguage = "en"
     # Banner Section
     [languages.de.params.banner]
     enable  = true
-    bgImage = "images/slider.jpg"
     heading = "ito bedeutet"
     description = "Ortet Viren, nicht Manschen!"
     # button
