@@ -121,12 +121,12 @@ DefaultContentLanguage = "en"
   [languages.de]
     [languages.de.params]
     # Meta data
-    description = "Eine Applikation zum unterbrechen von Infektionsketten mithilfe von Bluetooth welche deine Privatsphäre schützt."
+    description = "Eine Applikation zum Unterbrechen von Infektionsketten mithilfe von Bluetooth welche deine Privatsphäre schützt."
     author = "ito Organisation"
 
     # Navbar Menus
     [[languages.de.menu.main]]
-    name    = "About"
+    name    = "Über uns"
     url     = "de/about"
     weight  = 2
     #[[languages.de.menu.main]]
@@ -142,7 +142,7 @@ DefaultContentLanguage = "en"
     url     = "de/blog"
     weight  = 5
     [[languages.de.menu.main]]
-    name    = "Contact"
+    name    = "Kontakt"
     url     = "de/contact"
     weight  = 6
 
@@ -150,10 +150,10 @@ DefaultContentLanguage = "en"
     [languages.de.params.banner]
     enable  = true
     heading = "ito bedeutet"
-    description = "Ortet Viren, nicht Manschen!"
+    description = "Ortet Viren, nicht Menschen!"
     # button
     btn     = true
-    btnText = "Mach mit"
+    btnText = "Mach mit!"
     btnURL  = "https://start.ito-app.org"
      # flip text
     [[languages.de.params.banner.flipText]]
@@ -163,34 +163,39 @@ DefaultContentLanguage = "en"
     [[languages.de.params.banner.flipText]]
     title   = "Infection Tracking Opportunity"
     [[languages.de.params.banner.flipText]]
-    title   = "\"Thread\" in Japanese"
+    title   = "\"Faden\" auf Japanisch"
 
     # Homepage About Section
     [languages.de.params.about]
     enable  = true
-    title   = "This is how it works"
+    title   = "So funktioniert es"
     content = """\
-            ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
-            If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
-            If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
-            Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
-            All users download the latest information at regular intervals to compare the data locally on their devices. \
-            If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
+        ito ist eine Anwendung zur Kontaktnachverfolgung um SARS-CoV-2 und anderen Krankheitserregern zu bekämpfen und dabei den Schutz der Privatsphäre zu waren.
+        Sie verwendet Bluetooth, um zu erkennen, welche Personen sich in deiner Nähe aufhalten, und speichert die Informationen anonym auf deinem Gerät.
+        Wenn sich jemand aus dieser Liste als infiziert meldet, berechnet dein Smartphone die Wahrscheinlichkeit einer Infektion und gibt dir entsprechende Handlungsempfehlungen.
+        Wenn du selbst positiv getestet wirst, erhältst du von der Gesundheitsbehörde einen Code, mit dem in die App eine Meldung ausgelöst werden kann.
+        Ihre Temporären Kontakt Nummern (TCN) werden dann auf den Server geladen, da die Nummern zufällig sind existiert kein Bezug zu dir.
+        Alle Benutzer laden in regelmäßigen Abständen die neuesten Informationen herunter, um die Daten lokal auf ihren Geräten zu vergleichen.
+        Wenn das Gerät einer Person, die mit dir Kontakt hatte, diese TCN erkennt, wird sie informiert - ohne dass deine tatsächliche Identität preisgegeben wird.
             """
     image   = "images/about/woman-app.jpg"
 
     [languages.de.params.about2]
     enable  = true
-    title   = "ito was made by people like you"
-    content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
+    title   = "ito wird von Menschen wie dir entwickelt"
+    content = """\
+        ito entstand im März 2020 als Teil einer Basisinitiative.
+        Seitdem haben sich uns viele andere interessierte Einzelpersonen, Fachleute und Unternehmen angeschlossen.
+        Als Teil der TCN-Koalition arbeiten wir mit anderen gleichgesinnten Teams auf der ganzen Welt zusammen.
+              """
     image   = "images/about/about.png"
 
     # Call to Action
     [languages.de.params.cta]
     enable  = true
-    title   = "We work 100% transparently"
-    content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
-    btnText = "Join Us"
+    title   = "Wir arbeiten 100% transparent"
+    content = "Weil wir es ernst meinen, wenn wir sagen, dass wir jedem auf der Welt helfen wollen, gesund zu bleiben, ist jeder Teil unseres Codes quelloffen."
+    btnText = "Hilf mit!"
     btnURL  = "https://start.ito-app.org"
 
     # Portfolio Section On Homepage

@@ -1,34 +1,38 @@
 enable  : true
 title   : Wieso wir anders sind!
 description: >
-  <b>ito</b> is built by people like you. We merged from several teams that participated in the #WirVsVirus Hackathon in March 2020. 
-  We have since been joined by many other interested professionals and companies.
-  We all know how important this project is right now, because privacy is sacred even in times of crisis. 
-  It is necessary to form a common front and avoid fragmentation. That's why we have all come together under <b>ito</b>  and continue to work on it.
-  <br>
-  <br>
-  That's not all! <b>ito</b> is currently actively forming a global alliance of privacy-focused open source projects working decentralized tracing solutions. 
-  The goal of this work is to create a unanimous privacy-protecting protocol that different countires and institutions can build thir contact tracing apps on. 
+  <p>
+  Wir glauben, dass die automatische Kontaktnachverfolgung ein wertvolles Werkzeug bei der Bekämpfung von SARS-CoV-2 und anderen Krankheitserregern sein wird.
+  Eine solche Lösung sollte und kann realisiert werden, ohne dass dafür die Privatsphäre aufgegeben werden muss. Das ist es, was wir mit <b>ito</b> erreichen wollen.
+  </p>
+  <p>
+  <b>ito</b> wird von Menschen wie dir gebaut. Wir haben uns aus mehreren Teams zusammengeschlossen, die am #WirVsVirus Hackathon im März 2020 teilgenommen haben. Seitdem haben sich uns viele andere interessierte Fachleute und Unternehmen angeschlossen.
+  </p>
+  <p>
+  Jedes Land hat ein anderes Gesundheitssystem, weshalb viele verschiedene Anwendungen zur Ermittlung von Kontaktpersonen entwickelt werden.
+  Da sich Menschen aber auch über die Grenzen hinweg mit Viren infizieren können, brauchen wir eine sichere Schnittstelle, über die die Nutzer der verschiedenen Apps unabhängig von der verwendeten App benachrichtigt werden können.
+  Aus diesem Grund bauen <b>ito</b> und andere Teams derzeit aktiv eine globale Allianz von datenschutzfokussierten Open-Source-Projekten auf, die an dezentralen Lösungen zur Rückverfolgung von Infoktionsketten arbeiten.
+  Das Ziel dieser Arbeit ist es, ein einheitliches, die Privatsphäre schützendes Protokoll zu schaffen, auf dem verschiedene Länder und Institutionen ihre Apps zur Ermittlung von Kontaktpersonen aufbauen können.
+  </p>
 image   : images/about/about.png
 aboutItem:
   - title : Think big!
     description: > 
-      Not every solution is created by people who are paid for it, ito  is one of those. We all work pro-bono and voluntarily to help society handle this outbreak. 
-      Nothing will happen if nobody fights for it, that is the reason why we all found each other. 
-      Global interoperability of COVID19 contact tracing protocols is crucial, and we are working to achieve this.
-      Our team thinks globally and is ready to do more.
-      
-      Become part of this community.
+      Nicht jede Lösung wird von Menschen geschaffen, die dafür bezahlt werden; ito ist eine davon.
+      Wir alle arbeiten pro-bono und freiwillig, um der Gesellschaft bei der Bewältigung dieses Ausbruchs zu helfen.
+      Nichts wird passieren, wenn niemand dafür kämpft, deshalb haben wir uns alle zusammengefunden.
+      Die globale Interoperabilität der COVID19-Kontaktnachverfolgungsprotokolle ist von entscheidender Bedeutung, und wir arbeiten daran, dies zu erreichen.
+      Unser Team denkt global und ist bereit, mehr zu tun. Werde Teil dieser Gemeinschaft.
 
   - title : Whats next?
     description: > 
-      We want a free solution for anyone and everyone. COVID19 knows no boundaries and nor do we. 
-      Therefore we have to go beyond all these boundaries and local solutions and work together to find a global one. 
-      ito  is currently in the process of forming a global alliance with privacy-focused open source projects. If you're interested, get in touch and join us!
+      Wir wollen eine freie Lösung für alle und jeden. COVID19 kennt keine Grenzen und wir auch nicht. 
+      Deshalb müssen wir über all diese Grenzen und lokalen Lösungen hinausgehen und gemeinsam an einer globalen Lösung arbeiten. 
+      ito ist derzeit dabei, eine globale Allianz mit datenschutzorientierten Open-Source-Projekten zu bilden. Wenn du interessiert hast, nehme Kontakt auf und schließ dich uns an!
 
   - title : Meet The Energy
     description: > 
-      We are a highly motivated team of individuals with varied expertise. 
-      All of our work is pro-bono and entirely voluntary, which highlights just how committed we are to an open-source, interoperable and privacy-preserving contact-tracing protocol. 
-      We believe that the tech community coming together behind this project is crucial for the world at this time and will save lives.
-      All of us are amazed and encouraged by the brilliant work that is going on around the world and the collaborative spirit that all our projects embody. 
+      Wir sind ein hochmotiviertes Team von Einzelpersonen mit unterschiedlichen Fachkenntnissen. 
+      Unsere gesamte Arbeit ist pro-bono und vollkommen freiwillig, was zeigt, wie sehr wir uns für ein quelloffenes, interoperables und die Privatsphäre wahrendes Protokoll zur Kontaktverfolgung einsetzen. 
+      Wir glauben, dass die Tech-Gemeinschaft, die hinter diesem Projekt zusammenkommt, für die Welt zum jetzigen Zeitpunkt entscheidend ist und Leben retten wird.
+      Wir alle sind erstaunt und ermutigt durch die brillante Arbeit, die auf der ganzen Welt geleistet wird, und den kooperativen Geist, den alle unsere Projekte verkörpern. 
