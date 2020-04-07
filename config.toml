@@ -50,8 +50,8 @@ DefaultContentLanguage = "en"
     description = "Track infections, not people!"
     # button
     btn     = true
-    btnText = "Download Now"
-    btnURL  = "https://github.com/ito-org/react-native-app"
+    btnText = "Get Involved"
+    btnURL  = "https://start.ito-app.org"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -68,19 +68,24 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "This is how it works"
     content = """\
-            ito uses Bluetooth to recognize which people are in your area and saves the information on your device. \
-            If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action. \
-            If you have been tested yourself, you will receive a code from the health department that you can enter in the app. \
-            Your pseudonymized ID will then be uploaded together with the verification of the positive test. \
-            All users download the latest information at regular intervals to compare the data locally on their devices. \
-            If the device recognizes this pseudonymized ID of a person who has been in contact with you, they will be informed - without the actual identity being revealed.\
+        ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
+        It uses Bluetooth to recognize which people are in your area and saves the information on your device.
+        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.
+        If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
+        Your pseudonymized ID will then be uploaded together with the verification of the positive test.
+        All users download the latest information at regular intervals to compare the data locally on their devices.
+        When the device of a person who has been in contact with you recognizes this pseudonymized ID, they will be informed - without the actual identity being revealed.
             """
     image   = "images/about/woman-app.jpg"
 
     [languages.en.params.about2]
     enable  = true
-    title   = "ito was made by people like you"
-    content = "Emerged as part of a grassroots initiative in March 2020, ito is a privacy-first application for tracking infections using smart devices with Bluetooth technology."
+    title   = "ito is made by people like you"
+    content = """\
+        ito emerged as part of a grassroots initiative in March 2020.
+        Since then, we have been joined by many other interested individuals, professionals and companies.
+        As part of the TCN coalition we are working together with other like minded teams around the world.
+        """
     image   = "images/about/about.png"
 
     # Call to Action
@@ -150,8 +155,8 @@ DefaultContentLanguage = "en"
     description = "Ortet Viren, nicht Manschen!"
     # button
     btn     = true
-    btnText = "Jetzt Download"
-    btnURL  = "https://github.com/ito-org/react-native-app"
+    btnText = "Mach mit"
+    btnURL  = "https://start.ito-app.org"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"

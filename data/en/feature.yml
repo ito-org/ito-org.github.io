@@ -15,7 +15,7 @@ item:
   - icon: ion-ios-body-outline
     title: Consent-based
     description: >
-      We have the same interests as you. ito only ever sends sensible data if you tell it to do so.
+      We have the same interests as you. ito only ever sends sensitive data if you tell it to do so.
 
   - icon: ion-ios-copy-outline
     title: Open-source
@@ -25,7 +25,7 @@ item:
   - icon: ion-ios-people-outline
     title: Free as in freedom
     description: >
-      Just don't keep your changes to yourself. Stay transparent!
+      Don't just keep your changes to yourself. Stay transparent!
 
   - icon: ion-ios-speedometer-outline
     title: Fast installation

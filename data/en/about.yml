@@ -1,14 +1,20 @@
 enable  : true
 title   : Why We are Different
 description: >
-  <b>ito</b> is built by people like you. We merged from several teams that participated in the #WirVsVirus Hackathon in March 2020. 
-  We have since been joined by many other interested professionals and companies.
-  We all know how important this project is right now, because privacy is sacred even in times of crisis. 
-  It is necessary to form a common front and avoid fragmentation. That's why we have all come together under <b>ito</b>  and continue to work on it.
-  <br>
-  <br>
-  That's not all! <b>ito</b> is currently actively forming a global alliance of privacy-focused open source projects working decentralized tracing solutions. 
-  The goal of this work is to create a unanimous privacy-protecting protocol that different countires and institutions can build thir contact tracing apps on. 
+  <p>
+  We believe automatic contact tracing will be a valuable tool in fighting SARS-CoV-2 and other pathogens.
+  However, such a solution should and can be realized without having to give up privacy. That is what we want to achieve with <b>ito</b>.
+  </p>
+  <p>
+  <b>ito</b> is built by people like you. We merged from several teams that participated in the #WirVsVirus Hackathon in March 2020. Since then, we have been joined by many other interested professionals and companies.
+  </p>
+  <p>
+  Each country has a unique health system, which is why many different contact tracing apps are emerging.
+  As people can contract viruses across borders we need a secure bridge for users of different apps to be notified independent of the app they are using.
+  This is why <b>ito</b> and other teams are currently actively forming a global alliance of privacy-focused open source projects working on decentralized tracing solutions.
+  The goal of this work is to create a unanimous privacy-protecting protocol that different countries and institutions can build their contact tracing apps on.
+  </p>
+
 image   : images/about/about.png
 aboutItem:
   - title : Think big!
