@@ -170,13 +170,13 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "So funktioniert es"
     content = """\
-        ito ist eine Anwendung zur Kontaktnachverfolgung zur Bekämpfung von SARS-CoV-2 und anderen Krankheitserregern mit Fokus auf den Schutz der Privatsphäre.
-        Es verwendet Bluetooth, um zu erkennen, welche Personen sich in Ihrer Nähe aufhalten, und speichert die Informationen auf Ihrem Gerät.
-        Wenn jemand aus dieser Liste als infiziert gemeldet wird, berechnet Ihr Smartphone die Wahrscheinlichkeit einer Infektion und gibt Ihnen entsprechende Handlungsempfehlungen.
-        Wenn Sie selbst positiv getestet werden, erhalten Sie von der Gesundheitsbehörde einen Code, den Sie in die App eingeben können.
-        Ihre pseudonymisierte ID wird dann zusammen mit der Bestätigung des positiven Tests hochgeladen.
+        ito ist eine Anwendung zur Kontaktnachverfolgung um SARS-CoV-2 und anderen Krankheitserregern zu bekämpfen und dabei den Schutz der Privatsphäre zu waren.
+        Sie verwendet Bluetooth, um zu erkennen, welche Personen sich in deiner Nähe aufhalten, und speichert die Informationen anonym auf deinem Gerät.
+        Wenn sich jemand aus dieser Liste als infiziert meldet, berechnet dein Smartphone die Wahrscheinlichkeit einer Infektion und gibt dir entsprechende Handlungsempfehlungen.
+        Wenn du selbst positiv getestet wirst, erhältst du von der Gesundheitsbehörde einen Code, mit dem in die App eine Meldung ausgelöst werden kann.
+        Ihre Temporären Kontakt Nummern (TCN) werden dann auf den Server geladen, da die Nummern zufällig sind existiert kein Bezug zu dir.
         Alle Benutzer laden in regelmäßigen Abständen die neuesten Informationen herunter, um die Daten lokal auf ihren Geräten zu vergleichen.
-        Wenn das Gerät einer Person, die mit Ihnen in Kontakt war, diese pseudonymisierte ID erkennt, wird sie informiert - ohne dass ihre tatsächliche Identität preisgegeben wird.
+        Wenn das Gerät einer Person, die mit dir Kontakt hatte, diese TCN erkennt, wird sie informiert - ohne dass deine tatsächliche Identität preisgegeben wird.
             """
     image   = "images/about/woman-app.jpg"
 
