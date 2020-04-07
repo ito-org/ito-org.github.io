@@ -13,7 +13,8 @@
   <title>{{ .Title }}</title>
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}">
 
-  <link rel="stylesheet" href="{{ "plugins/custom.css" | absURL }}">
+
+  <!-- <link rel="stylesheet" href="{{ "plugins/custom.css" | absURL }}"> -->
   {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }}">
   {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
@@ -28,6 +29,10 @@
   <link rel="stylesheet" href="{{ "plugins/facncybox/jquery.fancybox.css" | absURL }}">
   {{ "<!-- hover -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/hover/hover-min.css" | absURL }}">
+  {{ $scss := resources.Get "scss/style.scss" }}
+  {{ $style := $scss | resources.ToCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+ 
   <!-- {{ "template main css file" | safeHTML }} -->
   <!-- {{ $styles := resources.Get "css/style.css" | minify}} -->
   <!-- <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen"> -->
