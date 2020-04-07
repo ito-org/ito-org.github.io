@@ -4,6 +4,7 @@ $primary-500: #4770E0;
 $secondary-500: #699FFF;
 $primary-300: darken($primary-500, 7%);
 $primary-700: lighten($primary-500, 7%);
+$text-onPrimary: #fff;
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -142,13 +143,13 @@ a:hover {
   padding: 120px 0 25px 0;
   position: relative;
   background: $primary-500;
-  color: #fff;
+  color: $text-onPrimary;
 }
 
 .global-page-header h2 {
   font-size: 42px;
   font-weight: bold;
-  color: #fff;
+  color: $text-onPrimary;
   text-transform: uppercase;
 }
 
@@ -295,7 +296,7 @@ a:hover {
   background-attachment: fixed;
   background-color: $primary-500;
   padding: 150px 0 50px 0;
-  color: #fff;
+  color: $text-onPrimary;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   position: relative;
 }
@@ -319,7 +320,7 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: #fff ;
+  color: $text-onPrimary ;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -331,7 +332,7 @@ a:hover {
   margin-bottom: 38px;
   line-height: 27px;
   text-transform: uppercase;
-  color: #fff;
+  color: $text-onPrimary;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 25px;
 }
@@ -350,7 +351,7 @@ a:hover {
   border-radius: 0;
 }
 #hero-area .btn:hover {
-  color: #fff;
+  color: $text-onPrimary;
 }
 
 #call-to-action {
@@ -360,7 +361,7 @@ a:hover {
   padding: 80px 0;
   text-align: center;
   position: relative;
-  color: #fff;
+  color: $text-onPrimary;
 }
 
 #call-to-action .block {
@@ -383,7 +384,7 @@ a:hover {
 
 #call-to-action .block .btn-contact {
   background: #fff;
-  border: 2px solid #fff;
+  border: 2px solid $text-onPrimary;
   color: $primary-500;
   padding: 15px 34px;
   margin-top: 20px;
@@ -399,7 +400,7 @@ a:hover {
 }
 
 #call-to-action .block .btn-contact:hover {
-  color: #fff;
+  color: $text-onPrimary;
   background: $primary-500;
 }
 
@@ -430,7 +431,7 @@ a:hover {
 }
 
 .about-feature .block {
-  color: #fff;
+  color: $text-onPrimary;
   padding: 85px 65px;
   float: left;
 }
@@ -629,7 +630,7 @@ figure figcaption p {
 
 #feature .icon {
   text-decoration: none;
-  color: #fff;
+  color: $text-onPrimary;
   background-color: $primary-500;
   height: 100px;
   text-align: center;
@@ -712,11 +713,11 @@ article {
 .blog-content .btn-details {
   padding: 0;
   background: $primary-500;
-  color: #fff;
+  color: $text-onPrimary;
   padding: 8px 18px;
   border-radius: 0;
   margin-top: 15px;
-  border: 1px solid #fff;
+  border: 1px solid $text-onPrimary;
   box-shadow: 0px 0px 0px 1px $primary-500;
 }
 
@@ -819,7 +820,7 @@ article {
 }
 
 #contact-section .contact-form .btn-send {
-  color: #fff;
+  color: $text-onPrimary;
   outline: none;
   background: $primary-500;
   transition: all linear .2s;
@@ -1262,7 +1263,7 @@ article {
 
 .team-member .social-icons a {
   background: $primary-500;
-  color: #fff;
+  color: $text-onPrimary;
   padding: 4px 8px;
   display: inline-block;
   font-size: 15px;
@@ -1352,7 +1353,7 @@ ul.social-icons li {
   background: $primary-300;
 }
 .hvr-bounce-to-right:hover{
-  color:#fff;
+  color: $text-onPrimary;
 }
 
 /*# sourceMappingURL=maps/style.css.map */
