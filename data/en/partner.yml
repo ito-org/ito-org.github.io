@@ -15,7 +15,7 @@ members  :
 
   - name  : Cosee
     image : images/partner/cosee-logo.png
-    designation: "Working Parker"
+    designation: "Working Partner"
     description: 
     url   : https://www.cosee.biz/
     
@@ -33,7 +33,7 @@ members  :
 
   - name  : TUM
     image : images/partner/tum-logo.png
-    designation: "Working Parker"
+    designation: "Working Partner"
     description: 
     url   : https://www.tum.de
 
