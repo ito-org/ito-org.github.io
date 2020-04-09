@@ -25,22 +25,26 @@ DefaultContentLanguage = "en"
     name    = "About"
     url     = "about"
     weight  = 2
+    [[languages.en.menu.main]]
+    name    = "Get Involved"
+    url     = "/onboarding"
+    weight  = 3
     #[[languages.en.menu.main]]
     #name    = "Service"
     #url     = "service"
-    #weight  = 3
+    #weight  = 4
     #[[languages.en.menu.main]]
     #name    = "Gallery"
     #url     = "gallery"
-    #weight  = 4
+    #weight  = 5
     [[languages.en.menu.main]]
     name    = "Blog"
     url     = "blog"
-    weight  = 5
+    weight  = 6
     [[languages.en.menu.main]]
     name    = "Contact"
     url     = "contact"
-    weight  = 6
+    weight  = 7
 
     # Banner Section
     [languages.en.params.banner]
@@ -50,7 +54,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Get Involved"
-    btnURL  = "https://start.ito-app.org"
+    btnURL  = "/onboarding"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -93,7 +97,7 @@ DefaultContentLanguage = "en"
     title   = "We work 100% transparently"
     content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
     btnText = "Join Us"
-    btnURL  = "https://start.ito-app.org"
+    btnURL  = "/onboarding"
 
     # Portfolio Section On Homepage
     [languages.en.params.portfolio]
@@ -129,6 +133,10 @@ DefaultContentLanguage = "en"
     name    = "Über uns"
     url     = "de/about"
     weight  = 2
+    [[languages.de.menu.main]]
+    name    = "Mach mit!"
+    url     = "/de/onboarding"
+    weight  = 3
     #[[languages.de.menu.main]]
     #name    = "Service"
     #url     = "de/service"
@@ -154,7 +162,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Mach mit!"
-    btnURL  = "https://start.ito-app.org"
+    btnURL  = "/de/onboarding"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"
@@ -196,7 +204,7 @@ DefaultContentLanguage = "en"
     title   = "Wir arbeiten 100% transparent"
     content = "Weil wir es ernst meinen, wenn wir sagen, dass wir jedem auf der Welt helfen wollen, gesund zu bleiben, ist jeder Teil unseres Codes quelloffen."
     btnText = "Hilf mit!"
-    btnURL  = "https://start.ito-app.org"
+    btnURL  = "/de/onboarding"
 
     # Portfolio Section On Homepage
     [languages.de.params.portfolio]
