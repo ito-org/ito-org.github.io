@@ -27,7 +27,7 @@ DefaultContentLanguage = "en"
     weight  = 2
     [[languages.en.menu.main]]
     name    = "Get Involved"
-    url     = "/onboarding"
+    url     = "onboarding"
     weight  = 3
     #[[languages.en.menu.main]]
     #name    = "Service"
@@ -54,7 +54,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Get Involved"
-    btnURL  = "/onboarding"
+    btnURL  = "onboarding"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -97,7 +97,7 @@ DefaultContentLanguage = "en"
     title   = "We work 100% transparently"
     content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
     btnText = "Join Us"
-    btnURL  = "/onboarding"
+    btnURL  = "onboarding"
 
     # Portfolio Section On Homepage
     [languages.en.params.portfolio]
@@ -135,7 +135,7 @@ DefaultContentLanguage = "en"
     weight  = 2
     [[languages.de.menu.main]]
     name    = "Mach mit!"
-    url     = "/de/onboarding"
+    url     = "de/onboarding"
     weight  = 3
     #[[languages.de.menu.main]]
     #name    = "Service"
@@ -162,7 +162,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Mach mit!"
-    btnURL  = "/de/onboarding"
+    btnURL  = "de/onboarding"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"
