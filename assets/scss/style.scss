@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 
-$primary-500: #4770E0;
-$secondary-500: #699FFF;
+$secondary-500: #91E6D3;
+$primary-500: darken($secondary-500, 16%);
 $primary-300: darken($primary-500, 7%);
 $primary-700: lighten($primary-500, 7%);
-$text-onPrimary: #fff;
+$text-onPrimary: rgb(70, 70, 70);
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -340,7 +340,7 @@ a:hover {
 #hero-area .btn {
   background: #fff;
   border: none;
-  color: $primary-500;
+  color: $text-onPrimary;
   padding: 20px 35px;
   margin-top: 30px;
   font-size: 16px;
@@ -350,9 +350,7 @@ a:hover {
   letter-spacing: normal;
   border-radius: 0;
 }
-#hero-area .btn:hover {
-  color: $text-onPrimary;
-}
+
 
 #call-to-action {
   background: $primary-500;
@@ -367,12 +365,12 @@ a:hover {
 #call-to-action .block {
   position: relative;
   z-index: 9;
-  color: #fff;
+  color: $text-onPrimary;
 }
 
 #call-to-action .block h2 {
   margin-bottom: 15px;
-  color: #fff;
+  color: $text-onPrimary;
 }
 
 #call-to-action .block p {
@@ -384,8 +382,7 @@ a:hover {
 
 #call-to-action .block .btn-contact {
   background: #fff;
-  border: 2px solid $text-onPrimary;
-  color: $primary-500;
+  color: $text-onPrimary;
   padding: 15px 34px;
   margin-top: 20px;
   font-size: 12px;
@@ -399,9 +396,9 @@ a:hover {
   margin-right: 10px;
 }
 
-#call-to-action .block .btn-contact:hover {
+#call-to-action .block .btn-contact:hover, #hero-area .btn:hover {
   color: $text-onPrimary;
-  background: $primary-500;
+  background: $secondary-500;
 }
 
 #about {
@@ -1304,7 +1301,7 @@ article {
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: lighten($primary-500, 20%);
+  color: #fff;
   font-weight: 300;
 }
 
