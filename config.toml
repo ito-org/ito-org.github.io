@@ -29,6 +29,10 @@ DefaultContentLanguage = "en"
     name    = "Get Involved"
     url     = "onboarding"
     weight  = 3
+    [[languages.en.menu.main]]
+    name    = "Download"
+    url     = "https://github.com/ito-org/react-native-app/blob/master/README.md#download"
+    weight  = 4
     #[[languages.en.menu.main]]
     #name    = "Service"
     #url     = "service"
@@ -137,6 +141,10 @@ DefaultContentLanguage = "en"
     name    = "Mach mit!"
     url     = "de/onboarding"
     weight  = 3
+    [[languages.de.menu.main]]
+    name    = "Download"
+    url     = "https://github.com/ito-org/react-native-app/blob/master/README.md#download"
+    weight  = 4
     #[[languages.de.menu.main]]
     #name    = "Service"
     #url     = "de/service"
