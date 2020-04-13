@@ -227,7 +227,7 @@ DefaultContentLanguage = "en"
 
     [[languages.de.params.socialIcon]]
     icon = "ion-social-twitter"
-    url = "https://twitter.com/BandemicApp"
+    url = "https://twitter.com/itoApp"
 
     [[languages.de.params.socialIcon]]
     icon = "ion-social-youtube"
