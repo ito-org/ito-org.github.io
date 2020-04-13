@@ -30,8 +30,8 @@ DefaultContentLanguage = "en"
     url     = "onboarding"
     weight  = 3
     [[languages.en.menu.main]]
-    name    = "Download"
-    url     = "https://github.com/ito-org/react-native-app/blob/master/README.md#download"
+    name    = "Try on Android"
+    url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
     weight  = 4
     #[[languages.en.menu.main]]
     #name    = "Service"
@@ -142,8 +142,8 @@ DefaultContentLanguage = "en"
     url     = "de/onboarding"
     weight  = 3
     [[languages.de.menu.main]]
-    name    = "Download"
-    url     = "https://github.com/ito-org/react-native-app/blob/master/README.md#download"
+    name    = "Auf Android testen"
+    url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
     weight  = 4
     #[[languages.de.menu.main]]
     #name    = "Service"
