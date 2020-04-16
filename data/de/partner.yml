@@ -32,6 +32,11 @@ members  :
     description : 
     url    : https://devpost.com/software/rsub1
 
+  - name  : Sipgate
+    image : images/partner/sipgate_logo.png
+    designation: "Supporter"
+    url: https://www.sipgate.de
+
   - name  : TUM
     image : images/partner/tum-logo.png
     designation: "Working Partner"
