@@ -29,10 +29,10 @@ DefaultContentLanguage = "en"
     name    = "Get Involved"
     url     = "onboarding"
     weight  = 3
-    [[languages.en.menu.main]]
-    name    = "Try on Android"
-    url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
-    weight  = 4
+    #[[languages.en.menu.main]]
+    #name    = "Try on Android"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #weight  = 4
     #[[languages.en.menu.main]]
     #name    = "Service"
     #url     = "service"
@@ -57,8 +57,8 @@ DefaultContentLanguage = "en"
     description = "Track infections, not people!"
     # button
     btn     = true
-    btnText = "Get Involved"
-    btnURL  = "onboarding"
+    btnText = "Try on Android"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
 
     # flip text
     [[languages.en.params.banner.flipText]]
