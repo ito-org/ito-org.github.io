@@ -1,0 +1,40 @@
+enable  : true
+title   : Why We are Different
+description: >
+  <p>
+  We believe automatic contact tracing will be a valuable tool in fighting SARS-CoV-2 and other pathogens.
+  However, such a solution should and can be realized without having to give up privacy. That is what we want to achieve with <b>ito</b>.
+  </p>
+  <p>
+  <b>ito</b> is built by people like you. We merged from several teams that participated in the #WirVsVirus Hackathon in March 2020. Since then, we have been joined by many other interested professionals and companies.
+  </p>
+  <p>
+  Each country has a unique health system, which is why many different contact tracing apps are emerging.
+  As people can contract viruses across borders we need a secure bridge for users of different apps to be notified independent of the app they are using.
+  This is why <b>ito</b> and other teams are currently actively forming a global alliance of privacy-focused open source projects working on decentralized tracing solutions.
+  The goal of this work is to create a unanimous privacy-protecting protocol that different countries and institutions can build their contact tracing apps on.
+  </p>
+
+image   : images/about/about.png
+aboutItem:
+  - title : Think big!
+    description: > 
+      Not every solution is created by people who are paid for it, ito  is one of those. We all work pro-bono and voluntarily to help society handle this outbreak. 
+      Nothing will happen if nobody fights for it, that is the reason why we all found each other. 
+      Global interoperability of COVID19 contact tracing protocols is crucial, and we are working to achieve this.
+      Our team thinks globally and is ready to do more.
+      
+      Become part of this community.
+
+  - title : Whats next?
+    description: > 
+      We want a free solution for anyone and everyone. COVID19 knows no boundaries and nor do we. 
+      Therefore we have to go beyond all these boundaries and local solutions and work together to find a global one. 
+      ito  is currently in the process of forming a global alliance with privacy-focused open source projects. If you're interested, get in touch and join us!
+
+  - title : Meet The Energy
+    description: > 
+      We are a highly motivated team of individuals with varied expertise. 
+      All of our work is pro-bono and entirely voluntary, which highlights just how committed we are to an open-source, interoperable and privacy-preserving contact-tracing protocol. 
+      We believe that the tech community coming together behind this project is crucial for the world at this time and will save lives.
+      All of us are amazed and encouraged by the brilliant work that is going on around the world and the collaborative spirit that all our projects embody. 
