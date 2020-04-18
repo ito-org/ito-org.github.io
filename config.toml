@@ -236,3 +236,116 @@ DefaultContentLanguage = "en"
     [[languages.de.params.socialIcon]]
     icon = "ion-social-instagram"
     url = "https://www.instagram.com/bandemic.app/"
+
+[languages.nl]
+    # Site Params
+    [languages.nl.params]
+    # Meta data
+    description = "A privacy-first application for tracking infections using smart devices with bluetooth technology."
+    author = "ito Organisation"
+
+    # Navbar Menus
+    [[languages.nl.menu.main]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+    [[languages.nl.menu.main]]
+    name    = "Get Involved"
+    url     = "onboarding"
+    weight  = 3
+    #[[languages.nl.menu.main]]
+    #name    = "Try on Android"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #weight  = 4
+    #[[languages.nl.menu.main]]
+    #name    = "Service"
+    #url     = "service"
+    #weight  = 4
+    #[[languages.nl.menu.main]]
+    #name    = "Gallery"
+    #url     = "gallery"
+    #weight  = 5
+    [[languages.nl.menu.main]]
+    name    = "Blog"
+    url     = "blog"
+    weight  = 6
+    [[languages.nl.menu.main]]
+    name    = "Contact"
+    url     = "contact"
+    weight  = 7
+
+    # Banner Section
+    [languages.nl.params.banner]
+    enable  = true
+    heading = "ito means"
+    description = "Track infections, not people!"
+    # button
+    btn     = true
+    btnText = "Try on Android"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+
+    # flip text
+    [[languages.nl.params.banner.flipText]]
+    title   = "Infection Termination Operation"
+    [[languages.nl.params.banner.flipText]]
+    title   = "Integrated thermodynamic obscurity"
+    [[languages.nl.params.banner.flipText]]
+    title   = "Infection Tracking Opportunity"
+    [[languages.nl.params.banner.flipText]]
+    title   = "\"Thread\" in Japanese"
+
+    # Homepage About Section
+    [languages.nl.params.about]
+    enable  = true
+    title   = "This is how it works"
+    content = """\
+        ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
+        It uses Bluetooth to recognize which people are in your area and saves the information on your device.
+        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.
+        If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
+        Your pseudonymized ID will then be uploaded together with the verification of the positive test.
+        All users download the latest information at regular intervals to compare the data locally on their devices.
+        When the device of a person who has been in contact with you recognizes this pseudonymized ID, they will be informed - without the actual identity being revealed.
+            """
+    image   = "images/about/woman-app.jpg"
+
+    [languages.nl.params.about2]
+    enable  = true
+    title   = "ito is made by people like you"
+    content = """\
+        ito emerged as part of a grassroots initiative in March 2020.
+        Since then, we have been joined by many other interested individuals, professionals and companies.
+        As part of the TCN coalition we are working together with other like minded teams around the world.
+        """
+    image   = "images/about/about.png"
+
+    # Call to Action
+    [languages.nl.params.cta]
+    enable  = true
+    title   = "We work 100% transparently"
+    content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
+    btnText = "Join Us"
+    btnURL  = "/onboarding"
+
+    # Portfolio Section On Homepage
+    [languages.nl.params.portfolio]
+    enable  = false
+    title   = "Latest Works"
+    subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+    # social icons
+    [[languages.nl.params.socialIcon]]
+    icon = "ion-social-github"
+    url = "https://github.com/ito-org"
+
+    [[languages.nl.params.socialIcon]]
+    icon = "ion-social-twitter"
+    url = "https://twitter.com/itoApp"
+
+    [[languages.nl.params.socialIcon]]
+    icon = "ion-social-youtube"
+    url = "https://www.youtube.com/channel/UCYVYc99hjqv8cBSDvHwFGZQ/featured?view_as=subscriber"
+
+    [[languages.nl.params.socialIcon]]
+    icon = "ion-social-instagram"
+    url = "https://www.instagram.com/bandemic.app/"
