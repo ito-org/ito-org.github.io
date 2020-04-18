@@ -313,35 +313,39 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "Hoe werkt de ITO-APP"
     content = """\
-        ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
-        It uses Bluetooth to recognize which people are in your area and saves the information on your device.
-        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.
-        If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
-        Your pseudonymized ID will then be uploaded together with the verification of the positive test.
-        All users download the latest information at regular intervals to compare the data locally on their devices.
-        When the device of a person who has been in contact with you recognizes this pseudonymized ID, they will be informed - without the actual identity being revealed.
+        De ITO-APP helpt mensen de verspreiding van SARS-CoV-2 en andere ziekteverwekkers tegen te gaan. 
+        Privacy staat centraal binnen deze app. De app maakt gebruik van Bluetooth-technologie om de aanwezigheid van mensen in uw buurt te registreren. 
+        Deze registraties worden op uw toestel opgeslagen in een zogenoemde ‘historie van gepasseerde mensen’. 
+        Wanneer iemand uit deze historie aangeeft geïnfecteerd te zijn zal de app berekenen hoe groot de kans is dat u ook geïnfecteerd bent. 
+        De app geeft u vervolgens adviezen en zet u aan tot het nemen van vervolgstappen.
+
+        Wanneer u positief getest wordt op COVID-19 ontvangt u een willekeurig gegenereerde ID van uw zorgverlener. 
+        De gegenereerde ID wordt vervolgens samen met de verificatie van de positieve test geüpload naar de server. 
+        De app is zo ingesteld dat er met regelmatige tussenpozen gekeken wordt of er nieuwe besmettingen bij zijn gekomen. 
+        Wanneer dit het geval zullen mensen die in de buurt geweest zijn van deze ID geïnformeerd worden over de besmetting. 
+        De privacy van de gebruiker zal niet in het gedrang komen aangezien er geen persoonlijke gegevens worden gedeeld.
             """
     image   = "images/about/woman-app.jpg"
 
     [languages.nl.params.about2]
     enable  = true
-    title   = "ito is made by people like you"
+    title   = "ITO is gemaakt door mensen zoals u"
     content = """\
-        ito emerged as part of a grassroots initiative in March 2020.
-        Since then, we have been joined by many other interested individuals, professionals and companies.
-        As part of the TCN coalition we are working together with other like minded teams around the world.
+        ITO ontstond als een basisinitiatief in Maart 2020. 
+        Sindsdien hebben veel geïnteresseerde individuen, professionals en bedrijven zich aangesloten om mee te helpen. 
+        Als deel van de TCN-coalitie werken wij samen met gelijkgestemde teams over de hele wereld.
         """
     image   = "images/about/about.png"
 
-    # Call to Action
+    # Oproep tot Actie
     [languages.nl.params.cta]
     enable  = true
-    title   = "We work 100% transparently"
-    content = "Because we mean it when we say we want to help the world stay safe, every part of our code is open-source."
-    btnText = "Join Us"
+    title   = "Wij werken 100% transparant"
+    content = "Omdat wij de wereld veilig willen houden is 100% van de code open-source (vrij te benaderen)"
+    btnText = "Help Mee"
     btnURL  = "/onboarding"
 
-    # Portfolio Section On Homepage
+    # Portfolio Gedeelte op Homepagina
     [languages.nl.params.portfolio]
     enable  = false
     title   = "Latest Works"
