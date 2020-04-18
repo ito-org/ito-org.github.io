@@ -237,24 +237,24 @@ DefaultContentLanguage = "en"
     icon = "ion-social-instagram"
     url = "https://www.instagram.com/bandemic.app/"
 
-[languages.nl]
-    # Site Params
+  [languages.nl]
+    # Site Parameters
     [languages.nl.params]
-    # Meta data
-    description = "A privacy-first application for tracking infections using smart devices with bluetooth technology."
+    # Metadata
+    description = "Een applicatie voor het volgen van COVID-19 infecties met behulp van slimme apparaten met bluetooth-technologie. De privacy van de gebruiker staat centraal in deze app."
     author = "ito Organisation"
 
-    # Navbar Menus
+    # Navigatie Menus
     [[languages.nl.menu.main]]
-    name    = "About"
+    name    = "Over de App"
     url     = "about"
     weight  = 2
     [[languages.nl.menu.main]]
-    name    = "Get Involved"
+    name    = "Help Mee"
     url     = "onboarding"
     weight  = 3
     #[[languages.nl.menu.main]]
-    #name    = "Try on Android"
+    #name    = ""
     #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
     #weight  = 4
     #[[languages.nl.menu.main]]
@@ -262,7 +262,7 @@ DefaultContentLanguage = "en"
     #url     = "service"
     #weight  = 4
     #[[languages.nl.menu.main]]
-    #name    = "Gallery"
+    #name    = "Gallerij"
     #url     = "gallery"
     #weight  = 5
     [[languages.nl.menu.main]]
@@ -274,30 +274,44 @@ DefaultContentLanguage = "en"
     url     = "contact"
     weight  = 7
 
-    # Banner Section
+    # Bannergedeelte
     [languages.nl.params.banner]
     enable  = true
-    heading = "ito means"
-    description = "Track infections, not people!"
-    # button
+    heading = "ITO staat voor"
+    description = "Volg infecties, geen personen!"
+    # Knop
     btn     = true
-    btnText = "Try on Android"
+    btnText = "Probeer de App op uw Android-apparaat"
     btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
 
-    # flip text
-    [[languages.nl.params.banner.flipText]]
+    # ITO means - ITO staat voor - flip-teksten --- MAYBE Don't Change? Otherwise the translations won't lead to the initials I, T & O
+    # SEE 100% TRANSLATION IN NEXT BLOCK
+    # This block is translated partly so translations make sense for dutch readers.
+    [[languages.en.params.banner.flipText]]
     title   = "Infection Termination Operation"
-    [[languages.nl.params.banner.flipText]]
-    title   = "Integrated thermodynamic obscurity"
-    [[languages.nl.params.banner.flipText]]
+    [[languages.en.params.banner.flipText]]
+    title   = "Integrated Thermodynamic Obscurity"
+    [[languages.en.params.banner.flipText]]
     title   = "Infection Tracking Opportunity"
-    [[languages.nl.params.banner.flipText]]
-    title   = "\"Thread\" in Japanese"
+    [[languages.en.params.banner.flipText]]
+    title   = "\"Draad\" in het Japans"
+    
+    # TRANSLATION - I personally shouldn't use this translation ONLY (or USE this as sub-text beneath the english text) otherwise it doesn't make sense for dutch readers
+    # Infection = Infectie, Termination = Beëindiging, Operation = Operatie, Integrated = Geïntegreerd, Thermodynamic = Thermodynamisch,
+    # Obscurity = Obscuriteit, Tracking = Nasporen/Volgen, Oppurtunity = Mogelijkheid, Thread = Draad, in Japanse = in het Japans.
+    # [[languages.en.params.banner.flipText]]
+    # title   = "Infectie, Beëindiging, Operatie"
+    # [[languages.en.params.banner.flipText]]
+    # title   = "Geïntegreerd, Thermodynamisch, Obscuriteit"
+    # [[languages.en.params.banner.flipText]]
+    # title   = "Infectie, Volgen, Mogelijkheid"
+    # [[languages.en.params.banner.flipText]]
+    # title   = "\"Draad\" in het Japans"
 
-    # Homepage About Section
+    # Homepagina 'Over de App' Gedeelte
     [languages.nl.params.about]
     enable  = true
-    title   = "This is how it works"
+    title   = "Hoe werkt de ITO-APP"
     content = """\
         ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
         It uses Bluetooth to recognize which people are in your area and saves the information on your device.
