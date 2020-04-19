@@ -1,28 +1,46 @@
 name: github pages
 
 on:
-  push:
+  push: 
+  pull_request:
     branches:
       - source
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
         with:
           ref: source
           submodules: true
-
+      
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.62.2'
           extended: true
-
+      
       - name: Build
         run: hugo --minify 
+      
+      - name: Builded Webpage
+        if: startsWith(github.ref, 'refs/heads/source')
+        uses: actions/upload-artifact@v1
+        with:
+          name: ./pulic
+          path: ./pulic
 
+  deploy:
+    needs: [build]
+    if: startsWith(github.ref, 'refs/heads/source')
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/download-artifact@v1
+        with:
+          name: ./pulic
+          path: .
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
