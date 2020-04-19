@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Gratis Consultancy",
+    "description": "Nieuwe klanten krijgen gratis hulp/consultancy van ons.",
     "image": "features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Gecertificeerde Accountants",
+    "description": "Al onze teamleden zijn gecertificeerde accountants.",
     "image": "features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Fiscale naleving",
+    "description": "Wij blijven bij met de laatste veranderingen van de BTW-regelingen.",
     "image": "features/noun_3d modeling_1885342.svg"
   }
 ]
