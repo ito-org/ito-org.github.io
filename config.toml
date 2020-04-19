@@ -141,10 +141,10 @@ DefaultContentLanguage = "en"
     name    = "Mach mit!"
     url     = "de/onboarding"
     weight  = 3
-    [[languages.de.menu.main]]
-    name    = "Auf Android testen"
-    url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
-    weight  = 4
+    #[[languages.de.menu.main]]
+    #name    = "Auf Android testen"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #weight  = 4
     #[[languages.de.menu.main]]
     #name    = "Service"
     #url     = "de/service"
@@ -169,8 +169,8 @@ DefaultContentLanguage = "en"
     description = "Ortet Viren, nicht Menschen!"
     # button
     btn     = true
-    btnText = "Mach mit!"
-    btnURL  = "de/onboarding"
+    btnText = "Auf Andoird testen"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"
