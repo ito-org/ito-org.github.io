@@ -1,6 +1,6 @@
 ---
 title: "Verhaltenskodex"
-date: 2020-04-07T01:00:40+06:00
+date: 2020-04-16T01:00:40+06:00
 description : "Die folgenden Regeln haben wir uns selbst auferlegt und handeln danach."
 type: post
 image: images/blog/code_of_conduct.jpg
