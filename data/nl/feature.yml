@@ -1,33 +1,33 @@
 enable: true
-title: It matters how it's done
+title: Hoe ITO werkt
 subtitle:
 item:
   - icon: ion-ios-checkmark-outline
-    title: Privacy by design
+    title: Privacy staat vooraan
     description: >
-      User anonymity is a core feature, not an afterthought.
+      De anonimiteitswaarborging van gebruikers is een standaard functionaliteit binnen de app, het is niet iets waar we later over gaan nadenken.
 
   - icon: ion-earth
-    title: Usable worldwide
+    title: Wereldwijd inzetbaar
     description: >
-      Built with every human in mind, ito can be used by all health systems in the world.
+      ITO kan in elk zorgsysteem ter wereld worden ingebouwd, geen persoon wordt buiten beschouwing gelaten.
 
   - icon: ion-ios-body-outline
-    title: Consent-based
+    title: Toestemming gebaseerd
     description: >
-      We have the same interests as you. ito only ever sends sensitive data if you tell it to do so.
+      De app stuurt alleen gevoelige informatie door waneer u daar toestemming voor geeft. Het delen van informatie ligt in uw handen.
 
   - icon: ion-ios-copy-outline
-    title: Open-source
+    title: Openbare broncode
     description: >
-      Examine our code, copy it and use it wherever you want.
+      Onderzoek onze broncode, kopieer het en gebruik het wanneer u wilt!
 
   - icon: ion-ios-people-outline
-    title: Free as in freedom
+    title: Eerlijk samen alles delen
     description: >
-      Don't just keep your changes to yourself. Stay transparent!
+      Houd updates van de software niet voor uzelf, blijf transparent en deel updates met ons!
 
   - icon: ion-ios-speedometer-outline
-    title: Fast installation
+    title: Snelle installatie
     description: >
-      Simply deploy a few Docker containers and you're all set.
+      Zet simpelweg een paar Docker containers op en ga zó aan de slag!

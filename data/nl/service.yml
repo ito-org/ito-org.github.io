@@ -1,5 +1,5 @@
 enable  : true
-title   : WHAT WE LOVE TO DO
+title   : WAAR WIJ VAN HOUDEN
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis porro recusandae non quibusdam iure adipisci.
 image   : images/team.jpg
 serviceItem :
@@ -14,11 +14,11 @@ serviceItem :
       Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
 
   - icon  : ion-ios-paper-outline
-    title : DEVELOPMENT
+    title : ONTWIKKELING
     description: >
       Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum
 
   - icon  : ion-ios-paper-outline
-    title : THEMEING
+    title : STYLEN
     description: >
       Veritatis eligendi, dignissimos. Porta fermentum mus aute pulvinar earum minus platea massa feugiat rutrum urna facilisi ipsameum

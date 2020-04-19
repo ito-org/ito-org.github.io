@@ -1,9 +1,9 @@
 enable  : false
-title   : MEET THE TEAM
+title   : ONTMOET HET TEAM
 members  :
   - name  : Jonathon Andrew
     image : images/team/team-1.jpg
-    designation : CEO, Project Manager
+    designation : CEO, Projectmanager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
     facebook    : https://www.fb.com/themefisher
     twitter     : https://www.twitter.com/themefisher
@@ -12,7 +12,7 @@ members  :
   
   - name  : Jesmin Martina
     image : images/team/team-2.jpg
-    designation : CEO, Project Manager
+    designation : CEO, Projectmanager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
     facebook    : https://www.fb.com/themefisher
     twitter     : https://www.twitter.com/themefisher
@@ -21,7 +21,7 @@ members  :
   
   - name  : Deu John
     image : images/team/team-3.jpg
-    designation : CEO, Project Manager
+    designation : CEO, Projectmanager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
     facebook    : https://www.fb.com/themefisher
     twitter     : https://www.twitter.com/themefisher
@@ -30,7 +30,7 @@ members  :
 
   - name  : Anderson Martin
     image : images/team/team-4.jpg
-    designation : CEO, Project Manager
+    designation : CEO, Projectmanager
     description : Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
     facebook    : https://www.fb.com/themefisher
     twitter     : https://www.twitter.com/themefisher
@@ -39,5 +39,5 @@ members  :
 
   - name : Sebastian 
     image: images/team/team-4.jpg
-    designation: CEO, Project Manager
+    designation: CEO, Projectmanager
     twitter: https://twitter.com/kreativmonkey
