@@ -343,7 +343,7 @@ DefaultContentLanguage = "en"
     title   = "Wij werken 100% transparant"
     content = "Omdat wij de wereld veilig willen houden is 100% van de code open-source (vrij te benaderen)"
     btnText = "Help Mee"
-    btnURL  = "/onboarding"
+    btnURL  = "/nl/onboarding"
 
     # Portfolio Gedeelte op Homepagina
     [languages.nl.params.portfolio]
