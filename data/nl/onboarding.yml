@@ -1,26 +1,32 @@
 
 enable  : true
-title   : How you can support us
+title   : Hoe u ons kunt helpen
 description: >
   <p>
-    We are open to any kind of support. Right now we especially are looking for iOS Developers (Bluetooth/BLE knowledge would be a gift).
+    Wij staan open voor elk soort hulp. Momenteel zoeken wij voornamelijk iOS programmeurs en mensen met kennis over Bluetooth/BLE.
   </p>
   <p>
-    But every other hand is needed and welcomed.
+    Aarzel niet, elke extra helpende hand helpt ITO sneller een systeem te ontwerpen dat wereldwijd open-source inzetbaar is!
   </p>
   <p>
-    To get a first glimpse of what our current status is right now, check out the org at <a href="https://github.com/ito-org/" target="_blank">github</a>.<br />
-  </p>
-  <p>To read something about the current project status head over to our <a href="https://confluence.ito-app.org/" target="_blank">confluence page</a><br />
-    But please be aware that right now we don't have the time to make everything structured and pretty. (Maybe you want to help there?)
-    </p>
-  <p>
-    To get working with us, head over to our <a href="https://discord.gg/GbSySkC" target="_blank">discord channel</a>.
-    Please say hello in the #onboarding channel and give a small overview over your skillset in the #skillset channel. Have a look at the pinned messages and talk to the leads (see the user list on the right for them) about where you can and want to help.
+    Om een overzicht te krijgen van de huidige status kunt u onze <a href="https://github.com/ito-org/" target="_blank">Github-pagina</a> raadplegen.<br />
   </p>
   <p>
-    If you are related to the press or want to outreach to the public in any other way, the simplest way to get in touch is through <a href="mailto:presse@ito-app.org">presse@ito-app.org</a>
+    Om meer te weten te komen over de status van het project kunt u onze <a href="https://confluence.ito-app.org/" target="_blank">confluence pagina</a> bezoeken.<br />
+    Wij hebben jammer genoeg geen tijd om deze confluence pagina te structureren (misschien kunt u ons hiermee helpen?).
   </p>
   <p>
-    For an overview about all links and tools head over to <a href="https://start.ito-app.org/" target="_blank">start.ito-app.org</a>
+    Wanneer u ons wilt helpen volg dan de volgende stappen:
+    <ul>
+      <li>Bezoek onze <a href="https://discord.gg/GbSySkC" target="_blank">Discord channel</a>./li>
+      <li>Stel uzelf voor in de #onboarding channel.</li>
+      <li>Geef een overzicht van uw skillset in de #skillset channel.</li>
+      <li>Bekijk de vastegemaakte berichten (pinned messages) en communiceer met de Leads (personen in het lijstje rechts) om te bespreken waar u kunt helpen!</li>
+    </ul> 
+  </p>
+  <p>
+    Als u gerelateerd bent aan kranten, nieuwsbladen of tijdschriften (en verdere media), stuur dan een mail naar: <a href="mailto:presse@ito-app.org">presse@ito-app.org</a>.
+  </p>
+  <p>
+    Voor een overzicht met alle links en tools kunt u surfen naar <a href="https://start.ito-app.org/" target="_blank">start.ito-app.org</a>.
   </p>
