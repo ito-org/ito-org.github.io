@@ -1,0 +1,41 @@
+enable  : true
+title   : Waarom ITO anders is
+description: >
+  <p>
+  Wij geloven dat automatische contact-tracering een waardevolle tool is die kan worden ingezet tegen de verspreiding van SARS-CoV-2 en andere ziekteverwekkers. Een oplossing kan en zou moeten gerealiseerd kunnen worden zonder daarbij privacy in te hoeven leveren. 
+  Dat is wat we met <b>ITO</b> willen bereiken.
+  </p>
+  <p>
+  <b>ITO</b> is gebouwd door mensen zoals uzelf. Ons team is opgebouwd uit verschillende teams die participeerden in de #WirVsVirus Hackathon in Maart 2020. Sindsdien hebben veel geïnteresseerde individuen, professionals en bedrijven zich aangesloten om mee te helpen.
+  </p>
+  <p>
+  Elk land heeft een uniek zorgsysteem, daardoor worden er momenteel meerdere contact-traceringsapps ontwikkeld. 
+  Omdat mensen virussen kunnen oplopen in het buitenland moet er eigenlijk een ‘hoofdsysteem’ komen waar elk land hun app op zal aansluiten. 
+  Ongeacht welke app er gebruikt wordt, gebruikers van de app moeten op de hoogte kunnen worden gehouden van potentiële besmettingen.
+  </p>
+  <p>
+  Het doel van ITO is om een privacybeschermende oplossing te creëren die verschillende landen en instellingen kunnen gebruiken bij het bouwen van een contact-traceringsapp.
+  </p>
+
+image   : images/about/about.png
+aboutItem:
+  - title : Denk groot!
+    description: > 
+      Niet elke oplossing is gecreëerd door mensen die daarvoor betaald worden, ITO is één van die oplossingen. 
+      Wij werken allemaal vrijwillig samen om de samenleving te ondersteunen in deze COVID-19 uitbraak. 
+      Er zal niets gebeuren wanneer niemand er voor vecht, dat is de reden waarom wij elkaar gevonden hebben. 
+      Globale inzetbaarheid bij een contact-traceringssysteem is cruciaal. We werken er hard aan om dit te realiseren. 
+      Ons team heeft een wereldwijde visie en is bereid om meer te doen – Voeg u bij onze community en draag een steentje bij!
+
+  - title : Hoe verder?
+    description: > 
+      Wij willen een gratis oplossing realiseren voor iedereen. COVID-19 kent geen grenzen, daarom moeten wij voorbij grenzen kijken en lokale situaties betrekken met globale situaties. 
+      ITO is momenteel bezig met het vormen van een globale alliantie. Indien u geïnteresseerd bent ons te helpen stellen wij dit zeer op prijs. 
+      U vind hier meer informatie over op de ‘Help Mee’ pagina!
+
+  - title : Een gedreven team
+    description: > 
+      Wij zijn een uiterst gemotiveerd team van individualisten met gevarieerde expertises. 
+      Al ons werk is vrijwillig, wat laat blijken hoe gemotiveerd wij zijn een open-source en toegankelijke contact-traceringssysteem te realiseren waarbij privacy centraal staat. 
+      Wij geloven dat het bijeenkomen van de Tech-community achter dit project cruciaal is voor het redden van levens in deze tijd. 
+      Wij zijn erg gedreven te werken aan dit project door het zien van de betrokkenheid- en samenwerkings-sfeer die de samenleving toont omvatte dit project. 

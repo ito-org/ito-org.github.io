@@ -1,0 +1,7 @@
+enable  : false
+title   : ONZE EERSTE PROJECTEN
+subtitle: Dit zijn de eerste ideeën/projecten van de WirVsVirus Hackathon
+clientsLogo:
+  - image : images/clients/bluto.jpg
+  - image : images/clients/bandemic.jpg
+  - image : images/clients/trackcovidcluster.jpg
