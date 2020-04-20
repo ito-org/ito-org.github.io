@@ -31,7 +31,7 @@ DefaultContentLanguage = "en"
     weight  = 3
     #[[languages.en.menu.main]]
     #name    = "Try on Android"
-    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest"
     #weight  = 4
     #[[languages.en.menu.main]]
     #name    = "Service"
@@ -58,7 +58,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Try on Android"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -143,7 +143,7 @@ DefaultContentLanguage = "en"
     weight  = 3
     #[[languages.de.menu.main]]
     #name    = "Auf Android testen"
-    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest"
     #weight  = 4
     #[[languages.de.menu.main]]
     #name    = "Service"
@@ -170,7 +170,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Auf Andoird testen"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
      # flip text
     [[languages.de.params.banner.flipText]]
     title   = "Infektions terminierungs Operation"
@@ -255,7 +255,7 @@ DefaultContentLanguage = "en"
     weight  = 3
     #[[languages.nl.menu.main]]
     #name    = ""
-    #url     = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    #url     = "https://github.com/ito-org/react-native-app/releases/latest"
     #weight  = 4
     #[[languages.nl.menu.main]]
     #name    = "Service"
@@ -282,7 +282,7 @@ DefaultContentLanguage = "en"
     # Knop
     btn     = true
     btnText = "Probeer de App op uw Android-apparaat"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest/download/app-release.apk"
+    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
 
     # ITO means - ITO staat voor - flip-teksten --- MAYBE Don't Change? Otherwise the translations won't lead to the initials I, T & O
     # SEE 100% TRANSLATION IN NEXT BLOCK
