@@ -53,8 +53,7 @@ DefaultContentLanguage = "en"
     # Banner Section
     [languages.en.params.banner]
     enable  = true
-    heading = "ito means"
-    description = "Track infections, not people!"
+    heading = "ito"
     # button
     btn     = true
     btnText = "Try on Android"
@@ -62,13 +61,7 @@ DefaultContentLanguage = "en"
 
     # flip text
     [[languages.en.params.banner.flipText]]
-    title   = "Infection Termination Operation"
-    [[languages.en.params.banner.flipText]]
-    title   = "Integrated thermodynamic obscurity"
-    [[languages.en.params.banner.flipText]]
-    title   = "Infection Tracking Opportunity"
-    [[languages.en.params.banner.flipText]]
-    title   = "\"Thread\" in Japanese"
+    title   = "Track infections, not people."
 
     # Homepage About Section
     [languages.en.params.about]
@@ -165,21 +158,15 @@ DefaultContentLanguage = "en"
     # Banner Section
     [languages.de.params.banner]
     enable  = true
-    heading = "ito bedeutet"
-    description = "Ortet Viren, nicht Menschen!"
+    heading = "ito"
+
     # button
     btn     = true
-    btnText = "Auf Andoird testen"
+    btnText = "Auf Android testen"
     btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
-     # flip text
+
     [[languages.de.params.banner.flipText]]
-    title   = "Infektions terminierungs Operation"
-    [[languages.de.params.banner.flipText]]
-    title   = "Integrated thermodynamic obscurity"
-    [[languages.de.params.banner.flipText]]
-    title   = "Infection Tracking Opportunity"
-    [[languages.de.params.banner.flipText]]
-    title   = "\"Faden\" auf Japanisch"
+    title   = "Track infections, not people."
 
     # Homepage About Section
     [languages.de.params.about]
@@ -277,36 +264,16 @@ DefaultContentLanguage = "en"
     # Bannergedeelte
     [languages.nl.params.banner]
     enable  = true
-    heading = "ITO staat voor"
+    heading = "ito"
     description = "Volg infecties, geen personen!"
     # Knop
     btn     = true
     btnText = "Probeer de App op uw Android-apparaat"
     btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
 
-    # ITO means - ITO staat voor - flip-teksten --- MAYBE Don't Change? Otherwise the translations won't lead to the initials I, T & O
-    # SEE 100% TRANSLATION IN NEXT BLOCK
-    # This block is translated partly so translations make sense for dutch readers.
-    [[languages.en.params.banner.flipText]]
-    title   = "Infection Termination Operation"
-    [[languages.en.params.banner.flipText]]
-    title   = "Integrated Thermodynamic Obscurity"
-    [[languages.en.params.banner.flipText]]
-    title   = "Infection Tracking Opportunity"
-    [[languages.en.params.banner.flipText]]
-    title   = "\"Draad\" in het Japans"
     
-    # TRANSLATION - I personally shouldn't use this translation ONLY (or USE this as sub-text beneath the english text) otherwise it doesn't make sense for dutch readers
-    # Infection = Infectie, Termination = Beëindiging, Operation = Operatie, Integrated = Geïntegreerd, Thermodynamic = Thermodynamisch,
-    # Obscurity = Obscuriteit, Tracking = Nasporen/Volgen, Oppurtunity = Mogelijkheid, Thread = Draad, in Japanse = in het Japans.
-    # [[languages.en.params.banner.flipText]]
-    # title   = "Infectie, Beëindiging, Operatie"
-    # [[languages.en.params.banner.flipText]]
-    # title   = "Geïntegreerd, Thermodynamisch, Obscuriteit"
-    # [[languages.en.params.banner.flipText]]
-    # title   = "Infectie, Volgen, Mogelijkheid"
-    # [[languages.en.params.banner.flipText]]
-    # title   = "\"Draad\" in het Japans"
+    [[languages.nl.params.banner.flipText]]
+    title   = "Track infections, not people."
 
     # Homepagina 'Over de App' Gedeelte
     [languages.nl.params.about]
