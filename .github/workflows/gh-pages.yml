@@ -22,6 +22,7 @@ jobs:
           extended: true
       
       - name: Build
+        if: github.event.on.push.source
         run: hugo --minify 
       
       - name: Builded Webpage
@@ -32,6 +33,7 @@ jobs:
 
   deploy:
     needs: [build]
+    if: github.event.on.push.source
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/download-artifact@v1
