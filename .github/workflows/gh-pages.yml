@@ -22,10 +22,10 @@ jobs:
           extended: true
       
       - name: Build
-        if: github.event.on.push.source
         run: hugo --minify 
       
-      - name: Builded Webpage
+      - name: Webpage Artifact
+        if: github.event.on.push.source
         uses: actions/upload-artifact@v1
         with:
           name: public_source
