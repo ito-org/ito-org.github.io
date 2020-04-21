@@ -25,7 +25,7 @@ jobs:
         run: hugo --minify 
       
       - name: Webpage Artifact
-        if: github.event.on.push.source
+        if: contains(github.ref, "source")
         uses: actions/upload-artifact@v1
         with:
           name: public_source
@@ -33,7 +33,7 @@ jobs:
 
   deploy:
     needs: [build]
-    if: github.event.on.push.source
+    if: contains(github.ref, "source")
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/download-artifact@v1
