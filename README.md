@@ -11,7 +11,7 @@ The following steps make it easy to contribute to this Repository.
 
 ### Step 1
 
-Install [hugo](https://gohugo.io/getting-started/installing/) there is a binary file for all the popular distributions like Windows, Mac and off course Linux!. 
+Install the extended version of [hugo](https://gohugo.io/getting-started/installing/) there is a binary file for all the popular distributions like Windows, Mac and off course Linux!. 
 
 ### Step 2 
 
