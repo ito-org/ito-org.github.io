@@ -16,6 +16,8 @@ members:
     location: Mainz, Germany
     twitter: https://twitter.com/kreativmonkey
     github: https://github.com/kreativmonkey
+    xing: https://www.xing.com/profile/Sebastian_Preisner
+    website: https://calyrium.org
 
   - name: Jasin Islami
     image: images/team/hys.png
@@ -41,6 +43,13 @@ members:
     designation: Tech Expert
     location: Hesse, Germany
     github: https://github.com/kiwo
+
+  - name: Michael Köppl
+    image: images/team/calmandniceperson.png
+    designation: Developer
+    location: Munich, Germany
+    github: https://github.com/calmandniceperson
+    website: https://calmandniceperson.com/
 
   - name: Kilian Holzapfel
     image: images/team/user.png
