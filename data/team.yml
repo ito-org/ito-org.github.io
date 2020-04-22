@@ -36,6 +36,12 @@ members:
     location: Rhineland-Palatinate, Germany
     github: https://github.com/ChristianRomberg
 
+  - name: Christopher Allan
+    image: images/team/kiwo.png
+    designation: Tech Expert
+    location: Hesse, Germany
+    github: https://github.com/kiwo
+
   - name: Kilian Holzapfel
     image: images/team/user.png
     designation: Researcher
