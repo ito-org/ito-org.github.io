@@ -20,7 +20,7 @@ members:
     website: https://calyrium.org
 
   - name: Jasin Islami
-    image: images/team/hys.png
+    image: images/team/hys.jpg
     designation: Project Manager
     location: Berlin, Germany
     twitter: https://twitter.com/haveyaseen_pdh
@@ -39,19 +39,19 @@ members:
     github: https://github.com/ChristianRomberg
 
   - name: Christopher Allan
-    image: images/team/kiwo.png
+    image: images/team/kiwo.jpg
     designation: Tech Expert
     location: Hesse, Germany
     github: https://github.com/kiwo
 
   - name: Michael Köppl
-    image: images/team/calmandniceperson.png
+    image: images/team/calmandniceperson.jpg
     designation: Developer
     location: Munich, Germany
     github: https://github.com/calmandniceperson
     website: https://calmandniceperson.com/
 
   - name: Kilian Holzapfel
-    image: images/team/kilian.png
+    image: images/team/kilian.jpg
     designation: Researcher
     location: Munich, Germany
