@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 
-$secondary-500: #91E6D3;
+$secondary-500: #91e6d3;
 $primary-500: darken($secondary-500, 16%);
 $primary-300: darken($primary-500, 7%);
 $primary-700: lighten($primary-500, 7%);
@@ -115,14 +115,16 @@ a:hover {
 }
 
 .fancybox-next span {
-  background: url("../images/icons/right.png") no-repeat scroll center center #009ee3;
+  background: url("../images/icons/right.png") no-repeat scroll center center
+    #009ee3;
   height: 50px;
   width: 50px;
   right: 0;
 }
 
 .fancybox-prev span {
-  background: url("../images/icons/left.png") no-repeat scroll center center #009ee3;
+  background: url("../images/icons/left.png") no-repeat scroll center center
+    #009ee3;
   height: 50px;
   width: 50px;
   left: 0;
@@ -226,7 +228,7 @@ a:hover {
   color: #444 !important;
   font-size: 14px;
   font-weight: 500;
-  transition: .3s all;
+  transition: 0.3s all;
   text-transform: uppercase;
   padding: 5px 15px;
   display: block;
@@ -251,7 +253,8 @@ a:hover {
   z-index: 1;
   visibility: hidden;
   transform: scale(0.8);
-  transition: visibility 500ms, opacity 500ms, transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
+  transition: visibility 500ms, opacity 500ms,
+    transform 500ms cubic-bezier(0.43, 0.26, 0.11, 0.99);
 }
 
 @media (max-width: 991px) {
@@ -271,7 +274,7 @@ a:hover {
   line-height: normal;
   text-decoration: none;
   padding: 8px 0;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .dropdown-item:not(:last-child) {
@@ -302,7 +305,7 @@ a:hover {
 }
 
 #hero-area:before {
-  content: '';
+  content: "";
   z-index: 9;
   /* background: rgba(255, 255, 255, 0.78); */
   position: absolute;
@@ -320,7 +323,7 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: $text-onPrimary ;
+  color: $text-onPrimary;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -333,7 +336,7 @@ a:hover {
   line-height: 27px;
   text-transform: uppercase;
   color: $text-onPrimary;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin-top: 25px;
 }
 
@@ -350,7 +353,6 @@ a:hover {
   letter-spacing: normal;
   border-radius: 0;
 }
-
 
 #call-to-action {
   background: $primary-500;
@@ -376,7 +378,7 @@ a:hover {
 #call-to-action .block p {
   font-size: 15px;
   font-weight: 300;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   margin-top: 20px;
 }
 
@@ -389,14 +391,15 @@ a:hover {
   letter-spacing: 2px;
   text-transform: uppercase;
   border-radius: 0;
-  transition: all linear .2s;
+  transition: all linear 0.2s;
 }
 
 #call-to-action .block .btn-contact i {
   margin-right: 10px;
 }
 
-#call-to-action .block .btn-contact:hover, #hero-area .btn:hover {
+#call-to-action .block .btn-contact:hover,
+#hero-area .btn:hover {
   color: $text-onPrimary;
   background: $secondary-500;
 }
@@ -451,7 +454,7 @@ a:hover {
 
 .works {
   padding: 80px 0;
-  background: #FCFCFC;
+  background: #fcfcfc;
 }
 
 .works .block {
@@ -486,7 +489,7 @@ a:hover {
   left: 0;
   bottom: 0;
   opacity: 0;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .works .block .img-overly .overly a {
@@ -640,8 +643,40 @@ figure figcaption p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  text-shadow: $primary-300 1px 1px, $primary-300 2px 2px, $primary-300 3px 3px, $primary-300 4px 4px, $primary-300 5px 5px, $primary-300 6px 6px, $primary-300 7px 7px, $primary-300 8px 8px, $primary-300 9px 9px, $primary-300 10px 10px, $primary-300 11px 11px, $primary-300 12px 12px, $primary-300 13px 13px, $primary-300 14px 14px, $primary-300 15px 15px, $primary-300 16px 16px, $primary-300 17px 17px, $primary-300 18px 18px, $primary-300 19px 19px, $primary-300 20px 20px, $primary-300 21px 21px, $primary-300 22px 22px, $primary-300 23px 23px, $primary-300 24px 24px, $primary-300 25px 25px, $primary-300 26px 26px, $primary-300 27px 27px, $primary-300 28px 28px, $primary-300 29px 29px, $primary-300 30px 30px, $primary-300 31px 31px, $primary-300 32px 32px, $primary-300 33px 33px, $primary-300 34px 34px, $primary-300 35px 35px, $primary-300 36px 36px, $primary-300 37px 37px, $primary-300 38px 38px, $primary-300 39px 39px, $primary-300 40px 40px, $primary-300 41px 41px, $primary-300 42px 42px, $primary-300 43px 43px, $primary-300 44px 44px, $primary-300 45px 45px, $primary-300 46px 46px, $primary-300 47px 47px, $primary-300 48px 48px, $primary-300 49px 49px, $primary-300 50px 50px, $primary-300 51px 51px, $primary-300 52px 52px, $primary-300 53px 53px, $primary-300 54px 54px, $primary-300 55px 55px, $primary-300 56px 56px, $primary-300 57px 57px, $primary-300 58px 58px, $primary-300 59px 59px, $primary-300 60px 60px, $primary-300 61px 61px, $primary-300 62px 62px, $primary-300 63px 63px, $primary-300 64px 64px, $primary-300 65px 65px, $primary-300 66px 66px, $primary-300 67px 67px, $primary-300 68px 68px, $primary-300 69px 69px, $primary-300 70px 70px, $primary-300 71px 71px, $primary-300 72px 72px, $primary-300 73px 73px, $primary-300 74px 74px, $primary-300 75px 75px, $primary-300 76px 76px, $primary-300 77px 77px, $primary-300 78px 78px, $primary-300 79px 79px, $primary-300 80px 80px, $primary-300 81px 81px, $primary-300 82px 82px, $primary-300 83px 83px, $primary-300 84px 84px, $primary-300 85px 85px, $primary-300 86px 86px, $primary-300 87px 87px, $primary-300 88px 88px, $primary-300 89px 89px, $primary-300 90px 90px, $primary-300 91px 91px, $primary-300 92px 92px, $primary-300 93px 93px, $primary-300 94px 94px, $primary-300 95px 95px, $primary-300 96px 96px, $primary-300 97px 97px, $primary-300 98px 98px, $primary-300 99px 99px, $primary-300 100px 100px;
-
+  text-shadow: $primary-300 1px 1px, $primary-300 2px 2px, $primary-300 3px 3px,
+    $primary-300 4px 4px, $primary-300 5px 5px, $primary-300 6px 6px,
+    $primary-300 7px 7px, $primary-300 8px 8px, $primary-300 9px 9px,
+    $primary-300 10px 10px, $primary-300 11px 11px, $primary-300 12px 12px,
+    $primary-300 13px 13px, $primary-300 14px 14px, $primary-300 15px 15px,
+    $primary-300 16px 16px, $primary-300 17px 17px, $primary-300 18px 18px,
+    $primary-300 19px 19px, $primary-300 20px 20px, $primary-300 21px 21px,
+    $primary-300 22px 22px, $primary-300 23px 23px, $primary-300 24px 24px,
+    $primary-300 25px 25px, $primary-300 26px 26px, $primary-300 27px 27px,
+    $primary-300 28px 28px, $primary-300 29px 29px, $primary-300 30px 30px,
+    $primary-300 31px 31px, $primary-300 32px 32px, $primary-300 33px 33px,
+    $primary-300 34px 34px, $primary-300 35px 35px, $primary-300 36px 36px,
+    $primary-300 37px 37px, $primary-300 38px 38px, $primary-300 39px 39px,
+    $primary-300 40px 40px, $primary-300 41px 41px, $primary-300 42px 42px,
+    $primary-300 43px 43px, $primary-300 44px 44px, $primary-300 45px 45px,
+    $primary-300 46px 46px, $primary-300 47px 47px, $primary-300 48px 48px,
+    $primary-300 49px 49px, $primary-300 50px 50px, $primary-300 51px 51px,
+    $primary-300 52px 52px, $primary-300 53px 53px, $primary-300 54px 54px,
+    $primary-300 55px 55px, $primary-300 56px 56px, $primary-300 57px 57px,
+    $primary-300 58px 58px, $primary-300 59px 59px, $primary-300 60px 60px,
+    $primary-300 61px 61px, $primary-300 62px 62px, $primary-300 63px 63px,
+    $primary-300 64px 64px, $primary-300 65px 65px, $primary-300 66px 66px,
+    $primary-300 67px 67px, $primary-300 68px 68px, $primary-300 69px 69px,
+    $primary-300 70px 70px, $primary-300 71px 71px, $primary-300 72px 72px,
+    $primary-300 73px 73px, $primary-300 74px 74px, $primary-300 75px 75px,
+    $primary-300 76px 76px, $primary-300 77px 77px, $primary-300 78px 78px,
+    $primary-300 79px 79px, $primary-300 80px 80px, $primary-300 81px 81px,
+    $primary-300 82px 82px, $primary-300 83px 83px, $primary-300 84px 84px,
+    $primary-300 85px 85px, $primary-300 86px 86px, $primary-300 87px 87px,
+    $primary-300 88px 88px, $primary-300 89px 89px, $primary-300 90px 90px,
+    $primary-300 91px 91px, $primary-300 92px 92px, $primary-300 93px 93px,
+    $primary-300 94px 94px, $primary-300 95px 95px, $primary-300 96px 96px,
+    $primary-300 97px 97px, $primary-300 98px 98px, $primary-300 99px 99px,
+    $primary-300 100px 100px;
 }
 
 .wrapper_404 h1 {
@@ -667,7 +702,7 @@ figure figcaption p {
   text-transform: uppercase;
   letter-spacing: normal;
   border-radius: 0;
-  transition: all linear .2s;
+  transition: all linear 0.2s;
 }
 
 #blog-full-width {
@@ -679,7 +714,7 @@ article {
 }
 
 .blog-content h2 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .blog-content h2 a {
@@ -695,7 +730,7 @@ article {
 }
 
 .blog-content .blog-meta span:after {
-  content: '/';
+  content: "/";
   padding: 0 3px 0 6px;
 }
 
@@ -820,7 +855,7 @@ article {
   color: $text-onPrimary;
   outline: none;
   background: $primary-500;
-  transition: all linear .2s;
+  transition: all linear 0.2s;
   border-color: $primary-500;
   border-radius: 0;
 }
@@ -862,7 +897,7 @@ article {
 #contact-section .email,
 #contact-section .phone {
   text-align: center;
-  background: #F7F7F7;
+  background: #f7f7f7;
   padding: 20px 0 40px 0;
   margin-bottom: 20px;
 }
@@ -871,7 +906,7 @@ article {
 #contact-section .email i,
 #contact-section .phone i {
   font-size: 45px;
-  color: $primary-500  ;
+  color: $primary-500;
 }
 
 #contact-section .address h5,
@@ -888,15 +923,15 @@ article {
 #map-canvas {
   width: 100%;
   height: 350px;
-  background-color: #CCC;
+  background-color: #ccc;
 }
 
 .error {
   padding: 10px;
-  color: #D8000C;
+  color: #d8000c;
   border-radius: 2px;
   font-size: 14px;
-  background-color: #FFBABA;
+  background-color: #ffbaba;
 }
 
 .success {
@@ -1066,7 +1101,7 @@ article {
   color: #fff;
   border: none;
   padding: 12px 40px;
-  transition: .2s all;
+  transition: 0.2s all;
   letter-spacing: 2px;
   font-size: 15px;
 }
@@ -1074,20 +1109,20 @@ article {
 #product-showcase-banner .block .buttons .btn-demo {
   background: #5abd4f;
   margin-right: 8px;
-  border-bottom: 3px solid #429E38;
+  border-bottom: 3px solid #429e38;
 }
 
 #product-showcase-banner .block .buttons .btn-demo:hover {
-  background: #429E38;
+  background: #429e38;
 }
 
 #product-showcase-banner .block .buttons .btn-buy {
-  background: #00AEDA;
-  border-bottom: 3px solid #0190B5;
+  background: #00aeda;
+  border-bottom: 3px solid #0190b5;
 }
 
 #product-showcase-banner .block .buttons .btn-buy:hover {
-  background: #0190B5;
+  background: #0190b5;
 }
 
 #product-showcase-banner .block .buttons .btn-buy span {
@@ -1192,7 +1227,7 @@ article {
   left: 0;
   bottom: 0;
   opacity: 0;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 #related-items .block .img-overly .overly a {
@@ -1232,7 +1267,7 @@ article {
 }
 
 .team-member:hover .team-img img {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .team-member .team-img {
@@ -1245,6 +1280,11 @@ article {
 }
 
 .team-member .team_designation {
+  font-size: 14px;
+  margin-bottom: 0.25rem;
+}
+
+.team-member .team_location {
   font-size: 13px;
 }
 
@@ -1268,6 +1308,10 @@ article {
 
 .team-member .social-icons .facebook {
   padding: 4px 12px;
+}
+
+#team .team-member .team-img .team-pic {
+  border-radius: 50%;
 }
 
 #footer {
@@ -1331,14 +1375,14 @@ ul.social-icons li {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px){
-  .cd-words-wrapper{
-      height: 150px;
+@media only screen and (max-width: 600px) {
+  .cd-words-wrapper {
+    height: 150px;
   }
   .cd-words-wrapper b {
-      white-space: pre-wrap !important;
-      text-align: center;
-      font-size: 0.8em;
+    white-space: pre-wrap !important;
+    text-align: center;
+    font-size: 0.8em;
   }
 }
 
@@ -1346,10 +1390,10 @@ ul.social-icons li {
   margin: 50px 0;
 }
 
-.hvr-bounce-to-right:before{
+.hvr-bounce-to-right:before {
   background: $primary-300;
 }
-.hvr-bounce-to-right:hover{
+.hvr-bounce-to-right:hover {
   color: $text-onPrimary;
 }
 
