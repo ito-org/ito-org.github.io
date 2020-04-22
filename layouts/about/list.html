@@ -25,6 +25,8 @@
     </div>
 </section>
 
+{{ partial "team.html" . }}
+
 {{ "<!--  Company Feature Section Start -->" | safeHTML }}
 <section class="about-feature clearfix">
     <div class="container-fluid">
@@ -45,8 +47,6 @@
 {{ "<!--  Company Feature Section End -->" | safeHTML }}
 
 {{ partial "partner.html" . }}
-
-{{ partial "team.html" . }}
 
 {{ partial "clients.html" . }}
 
