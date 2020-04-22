@@ -19,6 +19,16 @@
                     {{ with .designation }}<p class="team_designation">{{ . }}</p>{{ end }}
                     {{ with .description }}<p class="team_text">{{ . }}</p>{{ end }}
                     <p class="social-icons">
+                        {{ with .github }}
+                        <a href="{{ . }}" target="_blank">
+                            <i class="ion-social-github"></i>
+                        </a>
+                        {{ end }}
+                        {{ with .youtube }}
+                        <a href="{{ . }}" target="_blank">
+                            <i class="ion-social-youtube"></i>
+                        </a>
+                        {{ end }}
                         {{ with .facebook }}
                         <a href="{{ . }}" class="facebook" target="_blank">
                             <i class="ion-social-facebook-outline"></i>
@@ -34,9 +44,9 @@
                             <i class="ion-social-linkedin-outline"></i>
                         </a>
                         {{ end }}
-                        {{ with .googleplus }}
+                        {{ with .xing }}
                         <a href="{{ . }}" target="_blank">
-                            <i class="ion-social-googleplus-outline"></i>
+                            <i class="ion-social-xing-outline"></i>
                         </a>
                         {{ end }}
                     </p>
