@@ -1053,7 +1053,8 @@ article {
   padding: 4px 12px; }
 
 #team .team-member .team-img .team-pic {
-  border-radius: 50%; }
+  border-radius: 50%;
+  filter: grayscale(1); }
 
 #footer {
   background: #fff;
