@@ -90,3 +90,11 @@ members:
     designation: Tech Expert
     location: Hesse, Germany
     github: https://github.com/kiwo
+
+  - name: Mathijs Schouten
+    image: images/team/mathijsschouten.jpg
+    designation: Dutch Translations
+    location: Haarlem, Netherlands
+    linkedin: https://www.linkedin.com/in/imathijs/
+    github: https://github.com/MSACC
+    website: https://it-everywhere.nl/
