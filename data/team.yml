@@ -32,7 +32,7 @@ members:
     image: images/team/clarafischer.jpg
     designation: Public Relations
     twitter: https://twitter.com/Voice_of_tech
-    linkedin: https://www.linkedin.com/in/clara-evelyn-fischer
+    linkedIn: https://www.linkedin.com/in/clara-evelyn-fischer
     xing: https://www.xing.com/profile/Clara_Fischer3
     github: https://github.com/ClaraSahara
     website: https://voiceof.tech/
@@ -61,7 +61,7 @@ members:
     image: images/team/csteinlehner.jpg
     designation: UX Design
     twitter: https://twitter.com/csteinlehner
-    linkedin: https://www.linkedin.com/in/csteinlehner
+    linkedIn: https://www.linkedin.com/in/csteinlehner
     xing: https://www.xing.com/profile/Christoph_Steinlehner
     github: https://github.com/csteinlehner
     website: https://csteinlehner.com/
@@ -77,6 +77,13 @@ members:
     image: images/team/kilian.jpg
     designation: Researcher
     location: Munich, Germany
+
+  - name: Esteban Barco
+    location: Mainz, Germany
+    image: images/team/esteban.jpg
+    designation: Brand Design
+    linkedIn: https://www.linkedin.com/in/esteban-barco-betancur-40a5a2150/
+    website: https://www.behance.net/EstebanBarco-Eban
 
   - name: Christopher Allan
     image: images/team/kiwo.jpg
