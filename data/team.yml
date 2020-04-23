@@ -10,15 +10,13 @@ members:
   #    linkedIn    : https://www.linkedin.com/themefisher
   #    googleplus  : https://plus.google.com/themefisher
 
-  - name: Clara Fischer
-    location: Leipzig, Germany
-    image: images/team/clarafischer.jpg
-    designation: Public relations
-    twitter: https://twitter.com/Voice_of_tech
-    linkedin: https://www.linkedin.com/in/clara-evelyn-fischer
-    xing: https://www.xing.com/profile/Clara_Fischer3
-    github: https://github.com/ClaraSahara
-    website: https://voiceof.tech/
+  - name: Nele Quast
+    location: Berlin, Germany
+    image: images/team/nele.jpg
+    designation: Interoperability Outreach
+    twitter: https://twitter.com/NeleQuast
+    linkedin: https://www.linkedin.com/in/nele-quast-760921130/
+    github: https://github.com/npqst
 
   - name: Sebastian Preisner
     image: images/team/SebastianPreisner.jpeg
@@ -28,6 +26,16 @@ members:
     github: https://github.com/kreativmonkey
     xing: https://www.xing.com/profile/Sebastian_Preisner
     website: https://calyrium.org
+
+  - name: Clara Fischer
+    location: Leipzig, Germany
+    image: images/team/clarafischer.jpg
+    designation: Public Relations
+    twitter: https://twitter.com/Voice_of_tech
+    linkedin: https://www.linkedin.com/in/clara-evelyn-fischer
+    xing: https://www.xing.com/profile/Clara_Fischer3
+    github: https://github.com/ClaraSahara
+    website: https://voiceof.tech/
 
   - name: Jasin Islami
     image: images/team/hys.jpg
@@ -48,11 +56,15 @@ members:
     location: Rhineland-Palatinate, Germany
     github: https://github.com/ChristianRomberg
 
-  - name: Christopher Allan
-    image: images/team/kiwo.jpg
-    designation: Tech Expert
-    location: Hesse, Germany
-    github: https://github.com/kiwo
+  - name: Christoph Steinlehner
+    location: Berlin, Germany
+    image: images/team/csteinlehner.jpg
+    designation: UX Design
+    twitter: https://twitter.com/csteinlehner
+    linkedin: https://www.linkedin.com/in/csteinlehner
+    xing: https://www.xing.com/profile/Christoph_Steinlehner
+    github: https://github.com/csteinlehner
+    website: https://csteinlehner.com/
 
   - name: Michael Köppl
     image: images/team/calmandniceperson.jpg
@@ -66,12 +78,8 @@ members:
     designation: Researcher
     location: Munich, Germany
 
-  - name: Christoph Steinlehner
-    location: Berlin, Germany
-    image: images/team/csteinlehner.jpg
-    designation: UX Design
-    twitter: https://twitter.com/csteinlehner
-    linkedin: https://www.linkedin.com/in/csteinlehner
-    xing: https://www.xing.com/profile/Christoph_Steinlehner
-    github: https://github.com/csteinlehner
-    website: https://csteinlehner.com/
+  - name: Christopher Allan
+    image: images/team/kiwo.jpg
+    designation: Tech Expert
+    location: Hesse, Germany
+    github: https://github.com/kiwo
