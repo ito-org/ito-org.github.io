@@ -13,7 +13,7 @@ members:
   - name: Clara Fischer
     location: Leipzig, Germany
     image: images/team/clarafischer.jpg
-    role: Public relations
+    designation: Public relations
     twitter: https://twitter.com/Voice_of_tech
     linkedin: https://www.linkedin.com/in/clara-evelyn-fischer
     xing: https://www.xing.com/profile/Clara_Fischer3
@@ -69,7 +69,7 @@ members:
   - name: Christoph Steinlehner
     location: Berlin, Germany
     image: images/team/csteinlehner.jpg
-    role: UX Design
+    designation: UX Design
     twitter: https://twitter.com/csteinlehner
     linkedin: https://www.linkedin.com/in/csteinlehner
     xing: https://www.xing.com/profile/Christoph_Steinlehner
