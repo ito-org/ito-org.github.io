@@ -75,12 +75,11 @@ members:
     xing: https://www.xing.com/profile/Lea_Doepp
     website: https://www.cosee.biz/
 
-  - name: Michael Köppl
-    image: images/team/calmandniceperson.jpg
-    designation: Developer
+  - name: Judith Gampe
     location: Munich, Germany
-    github: https://github.com/calmandniceperson
-    website: https://calmandniceperson.com/
+    image: images/team/judith.jpg
+    designation: Mentor
+    linkedin: https://www.linkedin.com/in/judith-gampe-3ab522118/
 
   - name: Kilian Holzapfel
     image: images/team/kilian.jpg
@@ -93,6 +92,13 @@ members:
     designation: Brand Design
     linkedin: https://www.linkedin.com/in/esteban-barco-betancur-40a5a2150/
     website: https://www.behance.net/EstebanBarco-Eban
+
+  - name: Michael Köppl
+    image: images/team/calmandniceperson.jpg
+    designation: Developer
+    location: Munich, Germany
+    github: https://github.com/calmandniceperson
+    website: https://calmandniceperson.com/
 
   - name: Christopher Allan
     image: images/team/kiwo.jpg
@@ -115,3 +121,10 @@ members:
     twitter: https://twitter.com/_jeroenpg
     github: https://github.com/jeroenpg
     website: https://jeroenpg.dev/
+
+  - name: Niklas Puller
+    image: images/team/niklas.jpg
+    designation: Developer Operations
+    location: Braunschweig, Germany
+    github: https://github.com/assert-not-singularity
+    linkedin: https://de.linkedin.com/in/niklas-puller-6199778a
