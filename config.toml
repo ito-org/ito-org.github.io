@@ -265,7 +265,7 @@ DefaultContentLanguage = "en"
     [languages.nl.params.banner]
     enable  = true
     heading = "ito"
-    description = "Volg infecties, geen personen!"
+    description = "volg infecties, geen personen."
     # Knop
     btn     = true
     btnText = "Probeer de App op uw Android-apparaat"
