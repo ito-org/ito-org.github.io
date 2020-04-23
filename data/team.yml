@@ -65,3 +65,13 @@ members:
     image: images/team/kilian.jpg
     designation: Researcher
     location: Munich, Germany
+
+  - name: Christoph Steinlehner
+    location: Berlin, Germany
+    image: images/team/csteinlehner.jpg
+    designation: UX Design
+    twitter: https://twitter.com/csteinlehner
+    linkedin: https://www.linkedin.com/in/csteinlehner
+    xing: https://www.xing.com/profile/Christoph_Steinlehner
+    github: https://github.com/csteinlehner
+    website: https://csteinlehner.com/
