@@ -68,13 +68,13 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "This is how it works"
     content = """\
-        ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
+        <p>ito is a privacy-first contact tracing app to fight SARS-CoV-2 and other pathogens. 
         It uses Bluetooth to recognize which people are in your area and saves the information on your device.
-        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.
-        If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
+        If someone from this history is reported as infected, your smartphone calculates your probability of infection and provides you with appropriate recommendations of action.</p>
+        <p>If you have been tested positive yourself, you will receive a code from the health department that you can enter in the app.
         Your pseudonymized ID will then be uploaded together with the verification of the positive test.
         All users download the latest information at regular intervals to compare the data locally on their devices.
-        When the device of a person who has been in contact with you recognizes this pseudonymized ID, they will be informed - without the actual identity being revealed.
+        When the device of a person who has been in contact with you recognizes this pseudonymized ID, they will be informed - without the actual identity being revealed.</p>
             """
     image   = "images/about/woman-app.jpg"
 
@@ -173,13 +173,13 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "So funktioniert es"
     content = """\
-        ito ist eine Anwendung zur Kontaktnachverfolgung um SARS-CoV-2 und anderen Krankheitserregern zu bekämpfen und dabei den Schutz der Privatsphäre zu waren.
+        <p>ito ist eine Anwendung zur Kontaktnachverfolgung um SARS-CoV-2 und anderen Krankheitserregern zu bekämpfen und dabei den Schutz der Privatsphäre zu waren.
         Sie verwendet Bluetooth, um zu erkennen, welche Personen sich in deiner Nähe aufhalten, und speichert die Informationen anonym auf deinem Gerät.
-        Wenn sich jemand aus dieser Liste als infiziert meldet, berechnet dein Smartphone die Wahrscheinlichkeit einer Infektion und gibt dir entsprechende Handlungsempfehlungen.
-        Wenn du selbst positiv getestet wirst, erhältst du von der Gesundheitsbehörde einen Code, mit dem in die App eine Meldung ausgelöst werden kann.
+        Wenn sich jemand aus dieser Liste als infiziert meldet, berechnet dein Smartphone die Wahrscheinlichkeit einer Infektion und gibt dir entsprechende Handlungsempfehlungen.</p>
+        <p>Wenn du selbst positiv getestet wirst, erhältst du von der Gesundheitsbehörde einen Code, mit dem in die App eine Meldung ausgelöst werden kann.
         Ihre Temporären Kontakt Nummern (TCN) werden dann auf den Server geladen, da die Nummern zufällig sind existiert kein Bezug zu dir.
         Alle Benutzer laden in regelmäßigen Abständen die neuesten Informationen herunter, um die Daten lokal auf ihren Geräten zu vergleichen.
-        Wenn das Gerät einer Person, die mit dir Kontakt hatte, diese TCN erkennt, wird sie informiert - ohne dass deine tatsächliche Identität preisgegeben wird.
+        Wenn das Gerät einer Person, die mit dir Kontakt hatte, diese TCN erkennt, wird sie informiert - ohne dass deine tatsächliche Identität preisgegeben wird.</p>
             """
     image   = "images/about/woman-app.jpg"
 
@@ -280,17 +280,16 @@ DefaultContentLanguage = "en"
     enable  = true
     title   = "Hoe werkt de ITO-APP"
     content = """\
-        De ITO-APP helpt mensen de verspreiding van SARS-CoV-2 en andere ziekteverwekkers tegen te gaan. 
+        <p>De ITO-APP helpt mensen de verspreiding van SARS-CoV-2 en andere ziekteverwekkers tegen te gaan. 
         Privacy staat centraal binnen deze app. De app maakt gebruik van Bluetooth-technologie om de aanwezigheid van mensen in uw buurt te registreren. 
         Deze registraties worden op uw toestel opgeslagen in een zogenoemde ‘historie van gepasseerde mensen’. 
         Wanneer iemand uit deze historie aangeeft geïnfecteerd te zijn zal de app berekenen hoe groot de kans is dat u ook geïnfecteerd bent. 
-        De app geeft u vervolgens adviezen en zet u aan tot het nemen van vervolgstappen.
-
-        Wanneer u positief getest wordt op COVID-19 ontvangt u een willekeurig gegenereerde ID van uw zorgverlener. 
+        De app geeft u vervolgens adviezen en zet u aan tot het nemen van vervolgstappen.</p>
+        <p>Wanneer u positief getest wordt op COVID-19 ontvangt u een willekeurig gegenereerde ID van uw zorgverlener. 
         De gegenereerde ID wordt vervolgens samen met de verificatie van de positieve test geüpload naar de server. 
         De app is zo ingesteld dat er met regelmatige tussenpozen gekeken wordt of er nieuwe besmettingen bij zijn gekomen. 
         Wanneer dit het geval zullen mensen die in de buurt geweest zijn van deze ID geïnformeerd worden over de besmetting. 
-        De privacy van de gebruiker zal niet in het gedrang komen aangezien er geen persoonlijke gegevens worden gedeeld.
+        De privacy van de gebruiker zal niet in het gedrang komen aangezien er geen persoonlijke gegevens worden gedeeld.</p>
             """
     image   = "images/about/woman-app.jpg"
 
