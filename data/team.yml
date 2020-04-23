@@ -13,7 +13,7 @@ members:
   - name: Nele Quast
     location: Berlin, Germany
     image: images/team/nele.jpg
-    designation: Interoperability Outreach
+    designation: Outreach & Interoperability
     twitter: https://twitter.com/NeleQuast
     linkedin: https://www.linkedin.com/in/nele-quast-760921130/
     github: https://github.com/npqst
@@ -65,6 +65,15 @@ members:
     xing: https://www.xing.com/profile/Christoph_Steinlehner
     github: https://github.com/csteinlehner
     website: https://csteinlehner.com/
+
+  - name: Lea Döpp
+    image: images/team/lea.jpg
+    designation: Public Relations
+    location: Darmstadt, Germany
+    twitter: https://twitter.com/coseaaner
+    linkedin: https://www.linkedin.com/in/leadpp
+    xing: https://www.xing.com/profile/Lea_Doepp
+    website: https://www.cosee.biz/
 
   - name: Michael Köppl
     image: images/team/calmandniceperson.jpg
