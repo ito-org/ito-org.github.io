@@ -266,14 +266,14 @@ a:hover {
   color: #464646;
   font-weight: 700;
   margin-bottom: 15px;
-  text-transform: uppercase; }
+  text-transform: lowercase; }
 
 #hero-area h2 {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 38px;
   line-height: 27px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #464646;
   font-family: "Ubuntu", sans-serif;
   margin-top: 25px; }
