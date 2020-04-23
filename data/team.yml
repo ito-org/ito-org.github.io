@@ -51,7 +51,7 @@ members:
     github: https://github.com/sascha10000
 
   - name: Christian Romberg
-    image: images/team/gulli.jpg
+    image: images/team/chrisr.png
     designation: Tech Expert
     location: Rhineland-Palatinate, Germany
     github: https://github.com/ChristianRomberg
@@ -94,7 +94,15 @@ members:
   - name: Mathijs Schouten
     image: images/team/mathijsschouten.jpg
     designation: Dutch Translations
-    location: Haarlem, Netherlands
+    location: Haarlem, The Netherlands
     linkedin: https://www.linkedin.com/in/imathijs/
     github: https://github.com/MSACC
     website: https://it-everywhere.nl/
+
+  - name: Jeroen Grootendorst
+    image: images/team/jeroenpg.jpg
+    designation: Developer
+    location: Amsterdam, The Netherlands
+    twitter: https://twitter.com/_jeroenpg
+    github: https://github.com/jeroenpg
+    website: https://jeroenpg.dev/
