@@ -4,18 +4,17 @@
         <div class="row content-justify-between">
             <div class="col-md-8 col-12 text-center text-lg-left text-md-left">
                 <p class="copyright">
-                    Copyright:
-                    <span>
-                        <script>document.write(new Date().getFullYear())</script>
-                        {{ with .Site.GetPage "impressum.md" }}<a href="{{ .Permalink | safeURL }}"><b> Impressum</b></a>{{ end }}
-                        {{ with .Site.GetPage "datenschutz.md" }}<a href="{{ .Permalink | safeURL }}"><b> Datenschutz</b></a>{{ end }}
-                        <br />
-                    </span> 
-                    <span>Design and Developed by
-                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.
-                    <br> Get More Bootstrap Template From Our
-                    <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">Store</a>
-                    </span>
+                    <span>Copyright &copy; 2020 ito and authors</span><br />
+                    <span>Website developed by
+                    <a href="http://www.Themefisher.com" target="_blank">Themefisher</a> and adapted by ito.
+                    </span><br />
+                {{ with .Site.GetPage "impressum.md" }}
+                    <a href="{{ .Permalink | safeURL }}"><b> Impressum</b></a>
+                {{ end }}
+                &nbsp;
+                {{ with .Site.GetPage "datenschutz.md" }}
+                    <a href="{{ .Permalink | safeURL }}"><b> Datenschutz</b></a>
+                {{ end }}
                 </p>
             </div>
             <div class="col-md-4 col-12">
