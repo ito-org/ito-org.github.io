@@ -57,7 +57,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Try on Android"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
+    btnURL  = "https://github.com/ito-org/ito-app/releases/latest/download/ito-app.apk"
 
     # flip text
     [[languages.en.params.banner.flipText]]
@@ -163,7 +163,7 @@ DefaultContentLanguage = "en"
     # button
     btn     = true
     btnText = "Auf Android testen"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
+    btnURL  = "https://github.com/ito-org/ito-app/releases/latest/download/ito-app.apk"
 
     [[languages.de.params.banner.flipText]]
     title   = "Track infections, not people."
@@ -269,7 +269,7 @@ DefaultContentLanguage = "en"
     # Knop
     btn     = true
     btnText = "Probeer de App op uw Android-apparaat"
-    btnURL  = "https://github.com/ito-org/react-native-app/releases/latest"
+    btnURL  = "https://github.com/ito-org/ito-app/releases/latest/download/ito-app.apk"
 
     
     [[languages.nl.params.banner.flipText]]
