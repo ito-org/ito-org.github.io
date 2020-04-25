@@ -6,17 +6,19 @@ description : ""
 
 Angaben gemäß § 5 TMG
 
-Ito-app
-z.H. Sebastian Preisner
-Kapellenstr. 10
-55270 Ober-Olm
+    ito-App
+    z.H. Sebastian Preisner
+    Kapellenstr. 10
+    55270 Ober-Olm
+    Germany
 
-Vertreten durch:
-Sebastian Preisner
+    Vertreten durch:
+    Sebastian Preisner
 
-Kontakt:
-Telefon: 06136-4659099
-E-Mail: info@ito-app.org
+    Kontakt:
+    Telefon: 06136-4659099
+    E-Mail: info@ito-app.org
+
 
 ## Haftungsausschluss:
 
