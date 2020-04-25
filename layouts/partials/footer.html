@@ -7,7 +7,8 @@
                     Copyright:
                     <span>
                         <script>document.write(new Date().getFullYear())</script>
-                        {{ with .Site.GetPage "impressum.md" }}<a href="{{ .Permalink | safeURL }}"><b>Impressum</b></a>{{ end }}
+                        {{ with .Site.GetPage "impressum.md" }}<a href="{{ .Permalink | safeURL }}"><b> Impressum</b></a>{{ end }}
+                        {{ with .Site.GetPage "datenschutz.md" }}<a href="{{ .Permalink | safeURL }}"><b> Datenschutz</b></a>{{ end }}
                         <br />
                     </span> 
                     <span>Design and Developed by
