@@ -1,0 +1,47 @@
+enable: true
+title: Press
+intro: >
+    "Welcome to out press page. If you're a journalist, researcher or any other publisher, please feel free to use our resources beneath. 
+    In case you have any further questions or would like to interview one of our experts displayed in our team section, 
+    feel free to reach out to our press team to coordinate. Our app is currently downloadable <a href="#">here</a> (alpha version)."
+contacts:
+  - name: Clara Fischer
+    image: images/team/clarafischer.jpg
+    mail: clara.fischer@ito-app.org
+  - name: Sebastian Preisner
+    image: images/team/SebastianPreisner.jpeg
+    mail: sebastian.preisner@ito-app.org
+materials:
+  logo: 
+    - name: combi
+      url: https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_typeblack.svg
+    - name: icon
+      url: https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_iconblack.svg
+    - name: type
+      url: https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_typeblack.svg
+  mockup:
+    - name: Home with Contacts
+      image: images/mockup/home-with-contacts.png
+    - name: Enable bluetooth
+      image: images/mockup/bluetooth-on.png
+    - name: Infection Warning
+      image: images/mockup/home-infection-warning.png
+    - name: More mockups (Zip)
+      image: images/mockup/zip.svg
+      zip: images/mockup/Ito_App.zip
+published:
+  - name: Chip
+    date: "16.05.2020"
+    link: https://chip.de
+    image: https://i2.wp.com/www.mobiflip.de/wp-content/uploads/2014/03/cxo_googleplus-logo.png?w=250&ssl=1
+    description: Short description on the page what is the conclution ore something...
+  - name: Chip newer
+    date: "20.05.2020"
+    link: https://chip.de
+    image: https://i2.wp.com/www.mobiflip.de/wp-content/uploads/2014/03/cxo_googleplus-logo.png?w=250&ssl=1
+    description: Short description on the page what is the conclution ore something...
+  - name: Chip older
+    date: "14.05.2020"
+    link: https://chip.de
+    image: https://i2.wp.com/www.mobiflip.de/wp-content/uploads/2014/03/cxo_googleplus-logo.png?w=250&ssl=1
+    description: Short description on the page what is the conclution ore something...
