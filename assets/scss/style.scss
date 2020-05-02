@@ -430,6 +430,39 @@ a:hover {
   max-width: 100%;
 }
 
+.press-materials {
+  .row {
+    margin-bottom: 2em;
+  }
+  .download-material {
+    width: 100px;
+    float: left;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.press-contact {
+  .row {
+    padding: 10px 0;
+  }
+}
+
+.publish-date {
+  font-size: 0.6em;
+  color: #7e7e7e;
+}
+
+.fitted {
+  width: 100%;
+}
+
+.distance {
+  padding: 70px 0;
+}
+
 .about-feature .block {
   color: $text-onPrimary;
   padding: 85px 65px;

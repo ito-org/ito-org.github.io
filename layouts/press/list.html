@@ -1,0 +1,122 @@
+{{ define "main" }}
+
+{{ $data := .Site.Data.press }}
+
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>{{ .Title }}</h2>
+                    <div class="portfolio-meta">
+                        {{ with .Summary }}<span>{{ . }}</span>{{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="intro distance">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="post-content">
+                    {{ $data.intro }}
+                </div>
+            </div>
+            <div class="press-contact col-md-4">
+                <h3>Press contact</h3>
+                <div class="container">
+                    {{ range $data.contacts }}
+                    <div class="row">
+                        <div class="contect-image col-md-4">
+                            <img style="width:100%;border-radius:50%" src="{{ .image | absURL }}" />
+                        </div>
+                        <div class="contect-info col-md-8">
+                            <h5>{{ .name }}</h5>
+                            <span style="font-size:0.9em;">{{ .mail }}</span>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="press-releases distance">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>Press releases</h3>
+                {{ range .Pages }}
+
+                {{ end }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 press-materials">
+                <h3>Press materials</h3>
+                <div class="row material">
+                {{ range $data.materials.logo }}
+                <div class="download-material col-md-2">
+                    <img src="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}black.svg" /><br />
+                    <a href="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}black.svg" download>SVG</a> | 
+                    <a href="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}black.svg" download>PNG</a>
+                </div>
+                {{ end }}
+                {{ range $data.materials.logo }}
+                <div class="download-material col-md-2">
+                    <img src="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}color.svg" /><br />
+                    <a href="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}color.svg" download>SVG</a> | 
+                    <a href="https://raw.githubusercontent.com/ito-org/media/master/Logo/ito_Visual_Image_{{ .name }}color.svg" download>PNG</a>
+                </div>
+                {{ end }}
+                </div>
+                <div class="row material">
+                {{ range $data.materials.mockup }}
+                <div class="download-material col-md-2">
+                    <img src="{{ .image | absURL }}" /><br />
+                    {{ with .zip }}
+                        <a href="{{ . | absURL }}" download>Download</a>
+                    {{ else }}
+                        <a href="{{ .image | absURL }}" download>Download</a>
+                    {{ end}}
+                </div>
+                {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="press-ito distance">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 press-materials">
+                <h3>ito in the Press</h3>
+                {{ range (sort $data.published "date" "desc")  }}
+                    <div class="row">
+                        <div class="col-md-2 press-image">
+                            <img class="fitted" src="{{ .image | safeHTML }}" />
+                        </div>
+                        <div class="col-md-10 press-body">
+                            <h4><a href="{{ .url | safeHTML }}">{{ .name }}</a>
+                            {{ with .date }} <br /><span class="publish-date">{{ . }}</span>{{ end }}</h4>
+                            <p>{{ .description }}</p>
+                        </div>
+                    </div>
+                {{ end }}
+            </div>
+            <div class="col-md-4 press-materials">
+                <a class="twitter-timeline" href="https://twitter.com/itoApp" data-tweet-limit="3" data-width="399" ></a>
+                <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ end }}
